@@ -1,0 +1,73 @@
+Center for Computational Biology and Bioinformatics (CCBB)
+2023
+RNA-seq data is valuable as it allows the measure of RNA expression levels as a
+transcriptional readout and the study of RNA structures in order to understand how
+RNA-based mechanisms impact gene regulation and thus disease and phenotypic
+variation (https://www.encodeproject.org/rna-seq/)
+rRNA databases: h"ps://github.com/biocore/sortmerna/tree/master/data/rRNA_databases
+Reference build: h"ps://support.illumina.com/sequencing/sequencing_so<ware/igenome.html
+Steps in data processing:
+Assess data quality
+So<ware/module
+Input
+Output
+
+fastqc
+*.fastq.gz ﬁles
+websummary.html
+
+Adapter and quality trimming of reads
+So<ware/module TrimGalore!
+Input
+*.fastq.gz ﬁles
+Output
+Trimmed *.fastq.gz ﬁles
+Removal of ribosomal RNA
+So<ware/module SortMeRNA
+Input
+Trimmed *.fastq.gz ﬁles; rRNA databases
+Output
+Ribosomal RNA removed and trimmed *.fastq.gz ﬁles
+Alignment to the genome
+So<ware/module STAR
+Input
+Ribosomal RNA removed and trimmed *.fastq.gz ﬁles; reference build
+Output
+*.bam ﬁles
+
+Sort and index alignment
+So<ware/module SAMTools
+Input
+*.bam ﬁles
+Output
+Sorted *.bam ﬁles and *.bai ﬁles
+Duplicate read marking
+So<ware/module Picard markDuplicates
+Input
+Sorted *.bam ﬁles and *.bai ﬁles
+Output
+*.markDups.bam ﬁles and *.markDups.bai ﬁles
+
+Quality control
+So<ware/module
+Input
+Output
+
+MulOQC
+Output summaries from RSeQC, Qualimap, dupRadar, Preseq, edgeR
+websummary.html
+
+Expression quanAﬁcaAon
+So<ware/module featureCounts
+Input
+*.markDups.bam ﬁles and *.markDups.bai ﬁles; reference build
+Output
+*.featureCounts.txt ﬁles
+DiﬀerenAal expression
+So<ware/module DESeq2
+Input
+*.featureCounts.txt ﬁles; sample metadata (names, groups, contrasts)
+Output
+* deseq2.results.txt ﬁles and *.deseq2.plots.pdf ﬁles
+
+
