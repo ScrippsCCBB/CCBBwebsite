@@ -10,8 +10,9 @@
 
 
 
+<meta name="date" content="2023-12-27" />
 
-<title>tutorials.knit</title>
+<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,42 +349,97 @@ display: none;
 
 
 
+<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
+processing steps 2023</h1>
+<h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p>Center for Computational Biology and Bioinformatics (CCBB) 2023
-RNA-seq data is valuable as it allows the measure of RNA expression
-levels as a transcriptional readout and the study of RNA structures in
-order to understand how RNA-based mechanisms impact gene regulation and
-thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>) rRNA databases:
-h”ps://github.com/biocore/sortmerna/tree/master/data/rRNA_databases
-Reference build:
-h”ps://support.illumina.com/sequencing/sequencing_so&lt;ware/igenome.html
-Steps in data processing: Assess data quality So&lt;ware/module Input
-Output</p>
-<p>fastqc *.fastq.gz ﬁles websummary.html</p>
-<p>Adapter and quality trimming of reads So&lt;ware/module TrimGalore!
-Input <em>.fastq.gz ﬁles Output Trimmed </em>.fastq.gz ﬁles Removal of
-ribosomal RNA So&lt;ware/module SortMeRNA Input Trimmed <em>.fastq.gz
-ﬁles; rRNA databases Output Ribosomal RNA removed and trimmed
-</em>.fastq.gz ﬁles Alignment to the genome So&lt;ware/module STAR Input
-Ribosomal RNA removed and trimmed <em>.fastq.gz ﬁles; reference build
-Output </em>.bam ﬁles</p>
-<p>Sort and index alignment So&lt;ware/module SAMTools Input <em>.bam
-ﬁles Output Sorted </em>.bam ﬁles and <em>.bai ﬁles Duplicate read
-marking So&lt;ware/module Picard markDuplicates Input Sorted </em>.bam
-ﬁles and <em>.bai ﬁles Output </em>.markDups.bam ﬁles and *.markDups.bai
-ﬁles</p>
-<p>Quality control So&lt;ware/module Input Output</p>
-<p>MulOQC Output summaries from RSeQC, Qualimap, dupRadar, Preseq, edgeR
-websummary.html</p>
-<p>Expression quanAﬁcaAon So&lt;ware/module featureCounts Input
-<em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles; reference build
-Output <em>.featureCounts.txt ﬁles DiﬀerenAal expression
-So&lt;ware/module DESeq2 Input </em>.featureCounts.txt ﬁles; sample
-metadata (names, groups, contrasts) Output * deseq2.results.txt ﬁles and
-*.deseq2.plots.pdf ﬁles</p>
+<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
+RNA expression levels as a transcriptional readout and the study of RNA
+structures in order to understand how RNA-based mechanisms impact gene
+regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
+<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a>
+<strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
+<p><strong>Steps in data processing:</strong></p>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="12%" />
+<col width="37%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Step</th>
+<th align="left">Software/Module</th>
+<th align="left">Input</th>
+<th align="left">Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Assess Data Quality</td>
+<td align="left">fastqc</td>
+<td align="left">*.fastq.gz ﬁles</td>
+<td align="left">websummary.html</td>
+</tr>
+<tr class="even">
+<td align="left">Adapter and Quality Trimming of Reads</td>
+<td align="left">TrimGalaore!</td>
+<td align="left">*.fastq.gz ﬁles</td>
+<td align="left">Trimmed *.fastq.gz ﬁles</td>
+</tr>
+<tr class="odd">
+<td align="left">Removal of Ribosomal RNA</td>
+<td align="left">SortMeRNA</td>
+<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
+<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
+</tr>
+<tr class="even">
+<td align="left">Alignment to the Genome</td>
+<td align="left">STAR</td>
+<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
+reference build</td>
+<td align="left">*.bam ﬁles</td>
+</tr>
+<tr class="odd">
+<td align="left">Sort and index alignment</td>
+<td align="left">SAMTools</td>
+<td align="left">*.bam ﬁles</td>
+<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
+</tr>
+<tr class="even">
+<td align="left">Duplicate Read Marking</td>
+<td align="left">Picard markDuplicates</td>
+<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
+<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
+</tr>
+<tr class="odd">
+<td align="left">Quality control</td>
+<td align="left">MultiQC</td>
+<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
+Preseq, edgeR</td>
+<td align="left">websummary.html</td>
+</tr>
+<tr class="even">
+<td align="left">Expression quantification</td>
+<td align="left">featureCounts</td>
+<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
+reference build</td>
+<td align="left">*.featureCounts.txt ﬁles</td>
+</tr>
+<tr class="odd">
+<td align="left">Differential Expression</td>
+<td align="left">DESeq2</td>
+<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
+groups, contrasts)</td>
+<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
+ﬁles</td>
+</tr>
+</tbody>
+</table>
 <div style="page-break-after: always;"></div>
 
 
