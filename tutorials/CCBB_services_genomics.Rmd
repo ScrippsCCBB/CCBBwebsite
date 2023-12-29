@@ -1,8 +1,9 @@
 ---
 title: "CCBB Services Genomics"
 output: 
-  html_document:
-      css: "../style.css"
+  md_document:
+  # html_document:
+      # css: "../style.css"
 ---
 
 # Table of Contents

@@ -1,8 +1,7 @@
 ---
 title: "CCBB Services Transcriptomics"
 output: 
-  html_document:
-    css: "../style.css"
+  md_document:
 ---
 
 # Table of Contents

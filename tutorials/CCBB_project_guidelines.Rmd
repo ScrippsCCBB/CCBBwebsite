@@ -1,8 +1,7 @@
 ---
 title: "Project Guidelines"
 output: 
-  html_document:
-    css: "../style.css"
+  md_document:
 date: "2023-12-27"
 ---
 
