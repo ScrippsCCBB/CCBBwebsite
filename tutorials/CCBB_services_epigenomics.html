@@ -12,7 +12,7 @@
 
 <meta name="date" content="2023-12-27" />
 
-<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
+<title>CCBB Services Epigenomics</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -350,97 +350,83 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
-processing steps 2023</h1>
+<h1 class="title toc-ignore">CCBB Services Epigenomics</h1>
 <h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
-RNA expression levels as a transcriptional readout and the study of RNA
-structures in order to understand how RNA-based mechanisms impact gene
-regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
-<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a></p>
-<p><strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
-<p><strong>Steps in data processing:</strong></p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="11%" />
-<col width="37%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Software/Module</th>
-<th align="left">Input</th>
-<th align="left">Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Assess Data Quality</td>
-<td align="left">fastqc</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Adapter and Quality Trimming of Reads</td>
-<td align="left">TrimGalaore!</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">Trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Removal of Ribosomal RNA</td>
-<td align="left">SortMeRNA</td>
-<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Alignment to the Genome</td>
-<td align="left">STAR</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
-reference build</td>
-<td align="left">*.bam ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Sort and index alignment</td>
-<td align="left">SAMTools</td>
-<td align="left">*.bam ﬁles</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Duplicate Read Marking</td>
-<td align="left">Picard markDuplicates</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Quality control</td>
-<td align="left">MultiQC</td>
-<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
-Preseq, edgeR</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Expression quantification</td>
-<td align="left">featureCounts</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
-reference build</td>
-<td align="left">*.featureCounts.txt ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Differential Expression</td>
-<td align="left">DESeq2</td>
-<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
-groups, contrasts)</td>
-<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
-ﬁles</td>
-</tr>
-</tbody>
-</table>
+<div id="center-for-computational-biology-and-bioinformatics-ccbb" class="section level1">
+<h1>Center for Computational Biology and Bioinformatics (CCBB)</h1>
+</div>
+<div id="ccbb-services-epigenomics" class="section level1">
+<h1>2022 - CCBB Services: Epigenomics</h1>
+<p><strong>ChIP-Seq/eCLIP-Seq/CUT&amp;RUN/RIP-Seq, ATAC-Seq</strong></p>
+<p>ChIP-Seq/eCLIP-Seq/CUT&amp;RUN/RIP-Seq (standard Level 1 services: ~3
+to 5 business days)</p>
+<strong>Requirements:</strong>
+<ol>
+<ul>
+<li><p>Read targets reached (e.g. ~ 10 million reads per sample; human
+genome) for each of your samples in the study</p></li>
+<li><p>Number of samples submitted are less than 10</p></li>
+<li><p>Sample metadata (description of ChIP and INPUT samples) shared
+with CCBB prior to sequencing</p></li>
+<li><p>Biological replicates, if any, for your ChIP samples</p></li>
+<li><p>Reference genomes considered as standard: human, mouse,
+rat</p></li>
+</ul>
+</ol>
+<p><strong>Level 1 services:</strong> CCBB effort level - 2 hours</p>
+<p><strong>Standard analysis:</strong> Alignment to reference genome
+using BWA, peak calling (using protocol specific peak callers), BigWig
+files, HOMER to annotate peaks relative to gene features along with QC
+plots/tables.</p>
+<p><strong>Level 2 services:</strong> CCBB effort level - 5 hours</p>
+<ul>
+<li><p>Level 1 services + Motif discovery</p></li>
+<li><p>Help with visualization</p></li>
+</ul>
+<p><strong>Level 3 services:</strong> Consult CCBB first! CCBB effort
+level no more than 8 hours short term collaboration less than one
+month</p>
+<ul>
+<li><p>Large datasets with more than 20 samples</p></li>
+<li><p>Multiple sets of standard analysis</p></li>
+<li><p>Integration analysis (e.g. ChIP-Seq and RNA-Seq)</p></li>
+<li><p>Contribution to writing a scientific paper including Methods
+section</p></li>
+</ul>
+<p><strong>ATAC-Seq (standard level 1 service: ~3 to 5 business
+days)</strong></p>
+<p><strong>Level 1 services:</strong> CCBB effort level - 2 hours</p>
+<p><strong>Standard analysis:</strong> Alignment to reference genome
+using BWA, MACS2 for peak-calling, bed and BigWig files, HOMER to
+annotate peaks relative to gene features.</p>
+<p><strong>Level 2 services:</strong> CCBB effort level - 5 hours</p>
+<ul>
+<li><p>Motif searching</p></li>
+<li><p>ATAC_ChIP and RNA-Seq</p></li>
+<li><p>TF Footprinting</p></li>
+<li><p>DE analysis</p></li>
+</ul>
+<p><strong>Email to
+<a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a> to set up a
+consultation meeting for additional service(s).</strong></p>
+<p><strong>Additional services:</strong> Consult CCBB to get a
+quote/estimation of effort in hours. CCBB service hourly charges
+apply.</p>
+<ul>
+<li><p>Software development, custom pipeline implementation</p></li>
+<li><p>Re-analysis of older datasets</p></li>
+<li><p>Analysis for public datasets</p></li>
+<li><p>Specific figures/tables for publications; writing methods section
+or contribution for scientific papers/grant proposals</p></li>
+<li><p>Functional Analysis using Advaita/GSEA/SetRank</p></li>
+<li><p>Letter of Support for grants</p></li>
+<li><p>GEO/SRA submissions</p></li>
+</ul>
+</div>
 
 
 

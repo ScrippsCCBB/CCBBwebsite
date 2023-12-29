@@ -12,7 +12,7 @@
 
 <meta name="date" content="2023-12-27" />
 
-<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
+<title>CCBB</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -350,97 +350,54 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
-processing steps 2023</h1>
+<h1 class="title toc-ignore">CCBB</h1>
 <h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
-RNA expression levels as a transcriptional readout and the study of RNA
-structures in order to understand how RNA-based mechanisms impact gene
-regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
-<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a></p>
-<p><strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
-<p><strong>Steps in data processing:</strong></p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="11%" />
-<col width="37%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Software/Module</th>
-<th align="left">Input</th>
-<th align="left">Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Assess Data Quality</td>
-<td align="left">fastqc</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Adapter and Quality Trimming of Reads</td>
-<td align="left">TrimGalaore!</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">Trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Removal of Ribosomal RNA</td>
-<td align="left">SortMeRNA</td>
-<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Alignment to the Genome</td>
-<td align="left">STAR</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
-reference build</td>
-<td align="left">*.bam ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Sort and index alignment</td>
-<td align="left">SAMTools</td>
-<td align="left">*.bam ﬁles</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Duplicate Read Marking</td>
-<td align="left">Picard markDuplicates</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Quality control</td>
-<td align="left">MultiQC</td>
-<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
-Preseq, edgeR</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Expression quantification</td>
-<td align="left">featureCounts</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
-reference build</td>
-<td align="left">*.featureCounts.txt ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Differential Expression</td>
-<td align="left">DESeq2</td>
-<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
-groups, contrasts)</td>
-<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
-ﬁles</td>
-</tr>
-</tbody>
-</table>
+<p><a href="index.html" class="home-button">Home</a></p>
+<div id="table-of-contents" class="section level1">
+<h1>Table of Contents</h1>
+<div id="pages" class="section level2">
+<h2>Pages</h2>
+<ul>
+<li><a href="subpages/about.Rmd">About</a></li>
+<li><a href="subpages/services.html">Services</a></li>
+<li><a href="subpages/sequencing.html">Sequencing</a></li>
+<li><a href="subpages/publications.html">Publications</a></li>
+<li><a href="subpages/submit_request.html">Submit Request</a></li>
+<li><a href="subpages/research.html">Research</a></li>
+<li><a href="subpages/team.html">Team</a></li>
+<li><a href="subpages/resources.html">Resources</a></li>
+<li><a href="subpages/training.html">Training</a></li>
+<li><a href="subpages/contact.html">Contact</a></li>
+<li><a href="subpages/announcements.html">Announcements</a></li>
+</ul>
+</div>
+<div id="tutorials" class="section level2">
+<h2>Tutorials</h2>
+<ul>
+<li><a href="tutorials/CCBB_guidelines.html">CCBB Guidelines</a></li>
+<li><a href="tutorials/CCBB_project_guidelines.html">CCBB Project
+Guidelines</a></li>
+<li><a href="tutorials/CCBB_publications.html">CCBB
+Publications</a></li>
+<li><a href="tutorials/CCBB_services_epigenomics.html">CCBB Services
+Epigenomics</a></li>
+<li><a href="tutorials/CCBB_services_genomics.html">CCBB Services
+Genomics</a></li>
+<li><a href="tutorials/CCBB_services_metagenomics.html">CCBB Services
+Metagenomics</a></li>
+<li><a href="tutorials/CCBB_services_transcriptomics.html">CCBB Services
+Transcriptomics</a></li>
+<li><a href="tutorials/FileZilla_Instructions_CCBB.html">FileZilla
+Instructions CCBB</a></li>
+<li><a href="tutorials/rnaseqpipeline.html">RNAseq Pipeline
+Tutorial</a></li>
+</ul>
+</div>
+</div>
 
 
 

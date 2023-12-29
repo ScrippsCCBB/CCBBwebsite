@@ -12,7 +12,7 @@
 
 <meta name="date" content="2023-12-27" />
 
-<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
+<title>CCBB Publications</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -350,97 +350,79 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
-processing steps 2023</h1>
+<h1 class="title toc-ignore">CCBB Publications</h1>
 <h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
-RNA expression levels as a transcriptional readout and the study of RNA
-structures in order to understand how RNA-based mechanisms impact gene
-regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
-<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a></p>
-<p><strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
-<p><strong>Steps in data processing:</strong></p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="11%" />
-<col width="37%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Software/Module</th>
-<th align="left">Input</th>
-<th align="left">Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Assess Data Quality</td>
-<td align="left">fastqc</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Adapter and Quality Trimming of Reads</td>
-<td align="left">TrimGalaore!</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">Trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Removal of Ribosomal RNA</td>
-<td align="left">SortMeRNA</td>
-<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Alignment to the Genome</td>
-<td align="left">STAR</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
-reference build</td>
-<td align="left">*.bam ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Sort and index alignment</td>
-<td align="left">SAMTools</td>
-<td align="left">*.bam ﬁles</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Duplicate Read Marking</td>
-<td align="left">Picard markDuplicates</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Quality control</td>
-<td align="left">MultiQC</td>
-<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
-Preseq, edgeR</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Expression quantification</td>
-<td align="left">featureCounts</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
-reference build</td>
-<td align="left">*.featureCounts.txt ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Differential Expression</td>
-<td align="left">DESeq2</td>
-<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
-groups, contrasts)</td>
-<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
-ﬁles</td>
-</tr>
-</tbody>
-</table>
+<div id="table-of-contents" class="section level1">
+<h1>Table of Contents</h1>
+<!-- Content of your subpage goes here -->
+</div>
+<div id="center-for-computational-biology-and-bioinformatics-ccbb" class="section level1">
+<h1>Center for Computational Biology and Bioinformatics (CCBB)</h1>
+</div>
+<div id="ccbb-publications-2021-onwards" class="section level1">
+<h1>2022 - CCBB Publications (2021 Onwards)</h1>
+<ol style="font-family: Arial; font-size: 16px;">
+<ul>
+<li><p><strong>Krüppel-like factor-4 and Krüppel-like factor-2 are
+important regulators of joint tissue cells and protect against tissue
+destruction and inflammation in osteoarthritis:</strong> Kawata M,
+Teramura T, Ordoukhanian P, Head SR, Natarajan P, Sundaresan A, Olmer M,
+Asahara H, Lotz MK. Ann Rheum Dis. 2022 May 9:annrheumdis-2021-221867.
+doi: 10.1136/annrheumdis-2021-221867. Online ahead of print. PMID:
+35534137 DOI: 10.1136/annrheumdis-2021-221867</p></li>
+<li><p><strong>Maturation Delay of Human GABAergic Neurogenesis in
+Fragile X Syndrome Pluripotent Stem Cells:</strong> Ai Zhang, Irina
+Sokolova, Alain Domissy, Joshua Davis, Lee Rao, Kagistia Hana Utami,
+Yanling Wang, Randi J Hagerman, Mahmoud A Pouladi, Pietro Sanna, Michael
+J Boland, Jeanne F Loring. Stem Cells Translational Medicine, Volume 11,
+Issue 6, June 2022, Pages 613–629,
+<a href="https://doi.org/10.1093/stcltm/szac022">doi.org/10.1093/stcltm/szac022</a></p></li>
+<li><p><strong>Ethanol withdrawal-induced adaptations in prefrontal
+corticotropin releasing factor receptor 1-expressing neurons regulate
+anxiety and conditioned rewarding effects of ethanol:</strong> Patel RR,
+Wolfe SA, Borgonetti V, Gandhi PJ, Rodriguez L, Snyder AE, D’Ambrosio S,
+Bajo M, Domissy A, Head S, Contet C, Dayne Mayfield R, Roberts AJ,
+Roberto M. Mol Psychiatry (2022).
+<a href="https://doi.org/10.1038/s41380-022-01642-3">doi.org/10.1038/s41380-022-01642-3</a>.</p></li>
+<li><p><strong>A non-synonymous SNP in SIRT6 predicts neurological
+severity in Friedreich ataxia:</strong> Layne N Rodden, Christian
+Rummey, Yi Na Dong, Sarah Lagedrost, Sean Regner, Alicia Brocht, Khalaf
+Bushara, Martin B Delatycki, Christopher M Gomez, Katherine Mathews,
+Sarah Murray, Susan L Perlman, Bernard Ravina, S H Subramony, George
+Wilmot, Theresa Zesiewicz, Alessandra Bolotta, Alain Domissy, Christine
+Jespersen, Baohu Ji, Elisabetta Soragni, Joel M. Gottesfeld and David R
+Lynch; Frontiers in Molecular Biosciences (2022) Pending</p></li>
+<li><p><strong>Integrative scRNA-seq analyses of human articular
+cartilage and meniscus reveal a pathogenic, senescent subpopulation that
+is expanded in OA, shared between both tissues, and has critical roles
+in extracellular matrix properties and tenascin signaling:</strong>
+Hannah Swahn, Tomas Duffy, Kun Li, Tony Mondala, Padmaja Natarajan,
+Steven R. Head and Martin K. Lotz; An abstract submitted to OARSI
+2022</p></li>
+</ul>
+</ol>
+</div>
+<div id="list-of-publications-that-acknowledged-ccbb-2021-onwards" class="section level1">
+<h1>List of publications that acknowledged CCBB (2021 Onwards)</h1>
+<ol style="font-family: Arial; font-size: 16px;">
+<ul>
+<li><p><strong>Cleavage of DNA and RNA by PLD3 and PLD4 limits
+autoinflammatory triggering by multiple sensors:</strong> Gavin AL,
+Huang D, Blane TR, Thinnes TC, Murakami Y, Fukui R, Miyake K, Nemazee D.
+Nat Commun. 2021 Oct 7;12(1):5874. doi: 10.1038/s41467-021-26150-w.
+PMID: 34620855</p></li>
+<li><p><strong>Regulation of ex-translational activities is the primary
+function of the multi-tRNA synthetase complex:</strong> Cui H, Kapur M,
+Diedrich JK, Yates JR, Ackerman SL, Schimmel P. Nucleic Acids Res. 2021
+Apr 19;49(7):3603-3616. doi: 10.1093/nar/gkaa1183. PMID:
+33341895</p></li>
+</ul>
+</ol>
+</div>
 
 
 

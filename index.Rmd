@@ -1,42 +1,39 @@
-## Welcome to GitHub Pages
+---
+title: "CCBB"
+output: 
+  html_document:
+    css: "style.css"
+date: "2023-12-27"
+---
 
-You can use the [editor on GitHub](https://github.com/ScrippsCCBB/CCBBwebsite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a href="index.html" class="home-button">Home</a>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Table of Contents
 
-```markdown
-Syntax highlighted code block
+## Pages
 
-# Header 1
-## Header 2
-### Header 3
+- [About](subpages/about.html)
+- [Services](subpages/services.html)
+- [Sequencing](subpages/sequencing.html)
+- [Publications](subpages/publications.html)
+- [Submit Request](subpages/submit_request.html)
+- [Research](subpages/research.html)
+- [Team](subpages/team.html)
+- [Resources](subpages/resources.html)
+- [Training](subpages/training.html)
+- [Contact](subpages/contact.html)
+- [Announcements](subpages/announcements.html)
 
-- Bulleted
-- List
+## Tutorials
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ScrippsCCBB/CCBBwebsite/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-[blahhhhh](./tutorials/rnaseqpipeline.html)
-
-```{r}
-```
+- [CCBB Guidelines](tutorials/CCBB_guidelines.html)
+- [CCBB Project Guidelines](tutorials/CCBB_project_guidelines.html)
+- [CCBB Publications](tutorials/CCBB_publications.html)
+- [CCBB Services Epigenomics](tutorials/CCBB_services_epigenomics.html)
+- [CCBB Services Genomics](tutorials/CCBB_services_genomics.html)
+- [CCBB Services Metagenomics](tutorials/CCBB_services_metagenomics.html)
+- [CCBB Services Transcriptomics](tutorials/CCBB_services_transcriptomics.html)
+- [FileZilla Instructions CCBB](tutorials/FileZilla_Instructions_CCBB.html)
+- [RNAseq Pipeline Tutorial](tutorials/rnaseqpipeline.html)

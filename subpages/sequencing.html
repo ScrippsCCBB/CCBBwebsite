@@ -10,9 +10,8 @@
 
 
 
-<meta name="date" content="2023-12-27" />
 
-<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
+<title>sequencing.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -253,7 +252,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">body {font-family: 'Roboto', sans-serif;color: #333;line-height: 1.6;margin: 0;padding: 0;background-color: #f7f7f7;}header {background-color: #2c3e50;color: #fff;padding: 20px;text-align: center;}h1 {font-size: 2.5em;margin-bottom: 0.5em;}nav ul {list-style: none;margin: 0;padding: 0;text-align: center;}nav ul li {display: inline-block;margin: 0 10px;}nav ul li a {color: #fff;text-decoration: none;padding: 5px 10px;}nav ul li a:hover {background-color: #34495e;}.container {width: 80%;margin: 20px auto;padding: 20px;background-color: #fff;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);}footer {background-color: #34495e;color: #fff;text-align: center;padding: 10px 0;}.home-button {display: inline-block;padding: 8px 16px;margin-bottom: 20px;background-color: #007bff;color: white;text-decoration: none;border-radius: 4px;transition: background-color 0.3s ease;}.home-button:hover {background-color: #0056b3;}</style>
 
 
 
@@ -350,97 +348,11 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
-processing steps 2023</h1>
-<h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
-RNA expression levels as a transcriptional readout and the study of RNA
-structures in order to understand how RNA-based mechanisms impact gene
-regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
-<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a></p>
-<p><strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
-<p><strong>Steps in data processing:</strong></p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="11%" />
-<col width="37%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Software/Module</th>
-<th align="left">Input</th>
-<th align="left">Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Assess Data Quality</td>
-<td align="left">fastqc</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Adapter and Quality Trimming of Reads</td>
-<td align="left">TrimGalaore!</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">Trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Removal of Ribosomal RNA</td>
-<td align="left">SortMeRNA</td>
-<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Alignment to the Genome</td>
-<td align="left">STAR</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
-reference build</td>
-<td align="left">*.bam ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Sort and index alignment</td>
-<td align="left">SAMTools</td>
-<td align="left">*.bam ﬁles</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Duplicate Read Marking</td>
-<td align="left">Picard markDuplicates</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Quality control</td>
-<td align="left">MultiQC</td>
-<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
-Preseq, edgeR</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Expression quantification</td>
-<td align="left">featureCounts</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
-reference build</td>
-<td align="left">*.featureCounts.txt ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Differential Expression</td>
-<td align="left">DESeq2</td>
-<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
-groups, contrasts)</td>
-<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
-ﬁles</td>
-</tr>
-</tbody>
-</table>
+
 
 
 

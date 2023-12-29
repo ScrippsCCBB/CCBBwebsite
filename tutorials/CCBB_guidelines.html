@@ -12,7 +12,7 @@
 
 <meta name="date" content="2023-12-27" />
 
-<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
+<title>CCBB Guidelines</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -350,97 +350,48 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
-processing steps 2023</h1>
+<h1 class="title toc-ignore">CCBB Guidelines</h1>
 <h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
-RNA expression levels as a transcriptional readout and the study of RNA
-structures in order to understand how RNA-based mechanisms impact gene
-regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
-<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a></p>
-<p><strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
-<p><strong>Steps in data processing:</strong></p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="11%" />
-<col width="37%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Software/Module</th>
-<th align="left">Input</th>
-<th align="left">Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Assess Data Quality</td>
-<td align="left">fastqc</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Adapter and Quality Trimming of Reads</td>
-<td align="left">TrimGalaore!</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">Trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Removal of Ribosomal RNA</td>
-<td align="left">SortMeRNA</td>
-<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Alignment to the Genome</td>
-<td align="left">STAR</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
-reference build</td>
-<td align="left">*.bam ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Sort and index alignment</td>
-<td align="left">SAMTools</td>
-<td align="left">*.bam ﬁles</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Duplicate Read Marking</td>
-<td align="left">Picard markDuplicates</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Quality control</td>
-<td align="left">MultiQC</td>
-<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
-Preseq, edgeR</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Expression quantification</td>
-<td align="left">featureCounts</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
-reference build</td>
-<td align="left">*.featureCounts.txt ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Differential Expression</td>
-<td align="left">DESeq2</td>
-<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
-groups, contrasts)</td>
-<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
-ﬁles</td>
-</tr>
-</tbody>
-</table>
+<div id="center-for-computational-biology-and-bioinformatics-ccbb" class="section level1">
+<h1>Center for Computational Biology and Bioinformatics (CCBB)</h1>
+</div>
+<div id="ccbb-authorshipacknowledgement-guidelines" class="section level1">
+<h1>2022 CCBB Authorship/Acknowledgement Guidelines</h1>
+<p>Please consider these guidelines for including CCBB personnel who
+worked on your projects as co-authors in your publications.</p>
+<p><strong>Payment of expenses for CCBB services rendered and authorship
+are not mutually exclusive.</strong> Depending on their contribution,
+CCBB personnel should be considered collaborators just as the academic
+colleagues who contribute intellectually and receive funding to work on
+a project.</p>
+<p>The recovery of our expenses through the recharge system does not
+exclude the possibility for authorship for our personnel. Similarly,
+authorship does not substitute for payment of expenses for CCBB services
+rendered.</p>
+<p>CCBB personnel who have contributed to the project, but whose
+contributions do not rise to the level justifying authorship, can be
+recognized in an <strong>Acknowledgements</strong> section of the
+manuscript as follows:</p>
+<ul>
+<li>“The authors acknowledge the support of the Center for Computational
+Biology and Bioinformatics (CCBB) at Scripps Research”.</li>
+</ul>
+</div>
+<div id="ccbb-data-guidelines" class="section level1">
+<h1>CCBB Data Guidelines</h1>
+<p><strong>Internal (Scripps) customers:</strong> CCBB takes the
+responsibility to archive the sequencing data, but recommends customers
+to maintain their own backup of the data dispatched.</p>
+<p><strong>External (Non-Scripps) customers:</strong> CCBB’s
+responsibility for the sequencing data ends once the data is dispatched
+and verified for its integrity by the customers.</p>
+<p>Please contact <strong>ccbb.at.scripps.edu</strong> for your
+questions.</p>
+</div>
 
 
 

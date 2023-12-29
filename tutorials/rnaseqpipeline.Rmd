@@ -1,6 +1,8 @@
 ---
 title: "CCBB Bulk RNAseq pipeline tutorial data processing steps 2023"
-output: html_document
+output: 
+  html_document:
+    css: "../style.css"
 date: "2023-12-27"
 ---
 
@@ -23,37 +25,34 @@ variation (https://www.encodeproject.org/rna-seq/)
 
 ```{r}
 t <- tibble(
-  Step = c("Assess Data Quality", "Adapter and Quality Trimming of Reads", "Removal of Ribosomal RNA", "Alignment to the Genome", 
-           "Sort and index alignment", "Duplicate Read Marking", "Quality control", "Expression quantification", "Differential Expression"),
-  `Software/Module` = c('fastqc', 'TrimGalaore!', 'SortMeRNA', "STAR", "SAMTools", "Picard markDuplicates", 
-                             "MultiQC", "featureCounts", "DESeq2"), 
-  Input = c(
-  "*.fastq.gz ﬁles",
-  "*.fastq.gz ﬁles",
-  "Trimmed *.fastq.gz ﬁles; rRNA databases",
-  "Ribosomal RNA removed and trimmed *.fastq.gz ﬁles; reference build",
-  "*.bam ﬁles",
-  "Sorted *.bam ﬁles and *.bai ﬁles",
-  "Output summaries from RSeQC, Qualimap, dupRadar, Preseq, edgeR",
-  "*.markDups.bam ﬁles and *.markDups.bai ﬁles; reference build",
-  "*.featureCounts.txt ﬁles; sample metadata (names, groups, contrasts)"
-  ),
-  Output = c(
-  "websummary.html",
-  "Trimmed *.fastq.gz ﬁles",
-  "Ribosomal RNA removed and trimmed *.fastq.gz ﬁles",
-  "*.bam ﬁles",
-  "Sorted *.bam ﬁles and *.bai ﬁles",
-  "*.markDups.bam ﬁles and *.markDups.bai ﬁles",
-  "websummary.html",
-  "*.featureCounts.txt ﬁles",
-  "* deseq2.results.txt ﬁles and *.deseq2.plots.pdf ﬁles"
-  )
+Step = c("Assess Data Quality", "Adapter and Quality Trimming of Reads", "Removal of Ribosomal RNA", "Alignment to the Genome", 
+"Sort and index alignment", "Duplicate Read Marking", "Quality control", "Expression quantification", "Differential Expression"),
+`Software/Module` = c('fastqc', 'TrimGalaore!', 'SortMeRNA', "STAR", "SAMTools", "Picard markDuplicates", 
+"MultiQC", "featureCounts", "DESeq2"), 
+Input = c(
+"*.fastq.gz ﬁles",
+"*.fastq.gz ﬁles",
+"Trimmed *.fastq.gz ﬁles; rRNA databases",
+"Ribosomal RNA removed and trimmed *.fastq.gz ﬁles; reference build",
+"*.bam ﬁles",
+"Sorted *.bam ﬁles and *.bai ﬁles",
+"Output summaries from RSeQC, Qualimap, dupRadar, Preseq, edgeR",
+"*.markDups.bam ﬁles and *.markDups.bai ﬁles; reference build",
+"*.featureCounts.txt ﬁles; sample metadata (names, groups, contrasts)"
+),
+Output = c(
+"websummary.html",
+"Trimmed *.fastq.gz ﬁles",
+"Ribosomal RNA removed and trimmed *.fastq.gz ﬁles",
+"*.bam ﬁles",
+"Sorted *.bam ﬁles and *.bai ﬁles",
+"*.markDups.bam ﬁles and *.markDups.bai ﬁles",
+"websummary.html",
+"*.featureCounts.txt ﬁles",
+"* deseq2.results.txt ﬁles and *.deseq2.plots.pdf ﬁles"
+)
 )
 
 
 knitr::kable(t)
 ```
-
-
-

@@ -12,7 +12,7 @@
 
 <meta name="date" content="2023-12-27" />
 
-<title>CCBB Bulk RNAseq pipeline tutorial data processing steps 2023</title>
+<title>Project Guidelines</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -350,97 +350,69 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">CCBB Bulk RNAseq pipeline tutorial data
-processing steps 2023</h1>
+<h1 class="title toc-ignore">Project Guidelines</h1>
 <h4 class="date">2023-12-27</h4>
 
 </div>
 
 
-<p><strong>RNA-seq data</strong> is valuable as it allows the measure of
-RNA expression levels as a transcriptional readout and the study of RNA
-structures in order to understand how RNA-based mechanisms impact gene
-regulation and thus disease and phenotypic variation (<a href="https://www.encodeproject.org/rna-seq/" class="uri">https://www.encodeproject.org/rna-seq/</a>)</p>
-<p><strong>rRNA databases</strong>: <a href="https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases" class="uri">https://github.com/biocore/sortmerna/tree/master/data/rRNA_databases</a></p>
-<p><strong>Reference build:</strong> <a href="https://support.illumina.com/sequencing/sequencing_so" class="uri">https://support.illumina.com/sequencing/sequencing_so</a>&lt;ware/igenome.html</p>
-<p><strong>Steps in data processing:</strong></p>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="11%" />
-<col width="37%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Step</th>
-<th align="left">Software/Module</th>
-<th align="left">Input</th>
-<th align="left">Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Assess Data Quality</td>
-<td align="left">fastqc</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Adapter and Quality Trimming of Reads</td>
-<td align="left">TrimGalaore!</td>
-<td align="left">*.fastq.gz ﬁles</td>
-<td align="left">Trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Removal of Ribosomal RNA</td>
-<td align="left">SortMeRNA</td>
-<td align="left">Trimmed *.fastq.gz ﬁles; rRNA databases</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Alignment to the Genome</td>
-<td align="left">STAR</td>
-<td align="left">Ribosomal RNA removed and trimmed *.fastq.gz ﬁles;
-reference build</td>
-<td align="left">*.bam ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Sort and index alignment</td>
-<td align="left">SAMTools</td>
-<td align="left">*.bam ﬁles</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-</tr>
-<tr class="even">
-<td align="left">Duplicate Read Marking</td>
-<td align="left">Picard markDuplicates</td>
-<td align="left">Sorted <em>.bam ﬁles and </em>.bai ﬁles</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Quality control</td>
-<td align="left">MultiQC</td>
-<td align="left">Output summaries from RSeQC, Qualimap, dupRadar,
-Preseq, edgeR</td>
-<td align="left">websummary.html</td>
-</tr>
-<tr class="even">
-<td align="left">Expression quantification</td>
-<td align="left">featureCounts</td>
-<td align="left"><em>.markDups.bam ﬁles and </em>.markDups.bai ﬁles;
-reference build</td>
-<td align="left">*.featureCounts.txt ﬁles</td>
-</tr>
-<tr class="odd">
-<td align="left">Differential Expression</td>
-<td align="left">DESeq2</td>
-<td align="left">*.featureCounts.txt ﬁles; sample metadata (names,
-groups, contrasts)</td>
-<td align="left">* deseq2.results.txt ﬁles and *.deseq2.plots.pdf
-ﬁles</td>
-</tr>
-</tbody>
-</table>
+<div id="center-for-computational-biology-and-bioinformatics-ccbb" class="section level1">
+<h1>Center for Computational Biology and Bioinformatics (CCBB)</h1>
+</div>
+<div id="sequencing-project-guidelines" class="section level1">
+<h1>2022 - Sequencing Project Guidelines</h1>
+<p>Have a sequencing project? Follow the steps below for an effective
+and efficient outcome for your requests:</p>
+<p><strong>STEP 1:</strong> Email Steve Head, Genomics Core Director, at
+<a href="mailto:shead.at.scripps.edu">shead.at.scripps.edu</a> to
+discuss your proposed project and include
+<a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a> if you are
+interested in Raw data / fastqs / data analyses. This step is critical
+to identify and allocate the right set of resources for good time/cost
+estimates.</p>
+<p><strong>Tip:</strong> Share the biological context of your sequencing
+project (simple text or “Fig.1”).</p>
+<p><strong>STEP 2:</strong> Submit a request for access to Genomics Core
+facility at Idea Elan database, Infinity,
+<a href="https://secure21.ideaelan.com/secure/public/applogin.aspx">secure21.ideaelan.com</a>
+if this is your first sequencing project.</p>
+<p><strong>STEP 3:</strong> If you already have access to the Genomics
+Core facility, please login and submit the Sample Submission form
+available under the “Request Services” tab. Need help? Email Sheila
+Roberts Weiland at
+<a href="mailto:shkay.at.scripps.edu">shkay.at.scripps.edu</a>.</p>
+<p><strong>STEP 4:</strong> Samples can be submitted to the Genomics
+Core facility during office hours on weekdays. Coordinate with John
+(<a href="mailto:jshimo.at.scripps.edu">jshimo.at.scripps.edu</a>),
+Jessica
+(<a href="mailto:jledesma.at.scripps.edu">jledesma.at.scripps.edu</a>),
+or Nick (<a href="mailto:nvlee.at.scripps.edu">nvlee.at.scripps.edu</a>)
+to leave your samples in the freezer near the front door of the
+facility:</p>
+<p>Building Name: Skaggs Institute For Chemical Biology, Campus Map
+(<a href="https://www.scripps.edu/_files/pdfs/footer/contact/scripps-california-campus-map.pdf">Scripps
+California Campus Map</a>) MB-28, 10596 N. Torrey Pines Rd., La Jolla CA
+92037.</p>
+<p><strong>STEP 5:</strong> If you plan on receiving raw data on a hard
+drive, deposit an external hard drive with enough space at the Genomics
+Core facility at the time of sample submission.</p>
+<p><strong>STEP 6:</strong> (Non-Scripps) External customers requesting
+fastqs and/or results of analysis (any processed data) must create an
+AWS S3 bucket with specifications provided
+<a href="https://github.com/ScrippsCCBB/CCBBwebsite/blob/main/DataDispatch_via_AWS_S3bucket.pdf">here</a>
+and share the requested details with
+<a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a> at the time
+of sample submission.</p>
+<p><strong>STEP 7:</strong> Consult our services page and click the
+relevant service type to get a quick glance at the timelines/costs
+involved (in terms of the number of hours for CCBB effort) for
+completing your requests.</p>
+<p><strong>STEP 8:</strong> Follow the “Recommended Guidelines for
+Authorship on Manuscripts”.</p>
+<p><strong>STEP 9:</strong> Please give us your feedback to better serve
+your sequencing needs!</p>
+<p>** STEPS 2 and 3 apply to internal (Scripps) customers only.</p>
+</div>
 
 
 

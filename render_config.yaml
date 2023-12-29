@@ -1,0 +1,3 @@
+output:
+  html_document:
+    css: "path/to/your/style.css"  # Replace this with your CSS file path
