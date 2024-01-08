@@ -1,3 +1,9 @@
+<figure>
+<img src="../docs/assets/images/nfcore_pipeline.png"
+alt="NF Core Pipeline" />
+<figcaption aria-hidden="true">NF Core Pipeline</figcaption>
+</figure>
+
 **RNA-seq data** is valuable as it allows the measure of RNA expression
 levels as a transcriptional readout and the study of RNA structures in
 order to understand how RNA-based mechanisms impact gene regulation and

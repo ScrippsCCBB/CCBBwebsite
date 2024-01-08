@@ -1,12 +1,3 @@
-# Table of Contents
-
--   TOC {:toc}
-
-<!-- Content of your subpage goes here -->
-
-<a href="path_to_your_home_page.html" class="home-button">Home</a> date:
-“2023-12-27” —
-
 # Center for Computational Biology and Bioinformatics (CCBB)
 
 # 2022 - CCBB Services: Genomics

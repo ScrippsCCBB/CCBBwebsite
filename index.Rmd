@@ -10,7 +10,7 @@ date: "2023-12-27"
 <a href="index.html" class="home-button">Home</a>
 
 
-# Table of Contents
+# Table of Contents {.tabset}
 
 ## Pages
 
@@ -22,9 +22,7 @@ date: "2023-12-27"
 - [Research](subpages/research.html)
 - [Team](subpages/team.html)
 - [Resources](subpages/resources.html)
-- [Training](subpages/training.html)
 - [Contact](subpages/contact.html)
-- [Announcements](subpages/announcements.html)
 
 ## Tutorials
 

@@ -1,12 +1,7 @@
----
-title: "services"
-output: html_document
-date: "2023-12-27"
----
 
 Analyses: We provide a variety of standard and custom sequencing data analyses
 
-```{r}
+```{r, echo = FALSE, message = FALSE}
 dat <- tibble(
   analysis = c(
     

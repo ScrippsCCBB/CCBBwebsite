@@ -12,9 +12,7 @@
 -   [Research](subpages/research.html)
 -   [Team](subpages/team.html)
 -   [Resources](subpages/resources.html)
--   [Training](subpages/training.html)
 -   [Contact](subpages/contact.html)
--   [Announcements](subpages/announcements.html)
 
 ## Tutorials
 
