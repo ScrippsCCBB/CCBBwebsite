@@ -1,0 +1,55 @@
+# 2022 - CCBB Services: Genomics
+
+**- Exome, Whole Genome sequencing data analyses, SNPs, indels, CNVs**
+
+**Whole Genome sequencing (standard Level 1 services: ~3 to 5 business
+days)**
+
+**Requirements:**
+<ol>
+
+-   Each sample in your project should have the recommended read depth.
+
+-   Number of samples submitted are less than 20.
+
+-   Sample metadata (sample descriptions) shared with CCBB prior to
+    sequencing.
+
+-   Tumor / normal pairs (if any).
+
+-   Reference genomes considered as standard: human, mouse, rat.
+
+</ol>
+
+**Level 1 services:** CCBB effort level - 2 hours
+
+**Standard analysis:** Alignment to reference genome, SNPs/indels/CNVs
+(standard Level 1 services: ~3 to 5 business days).
+
+**Level 1 services:** CCBB effort level - 2 hours
+
+**Standard analysis:** Alignment to reference genome using BWA, Mark
+Duplicates, Base (Quality Score) Recalibration, Variant Calling
+(germline/somatic variants specific software), Annotation and QC
+plots/tables.
+
+**Email to <a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a>
+to set up a consultation meeting for additional service(s).**
+
+**Additional services:** Consult CCBB to get a quote/estimation of
+effort in hours. CCBB service hourly charges apply.
+
+-   Software development, custom pipeline implementation
+
+-   Re-analysis of older datasets
+
+-   Analysis for public datasets
+
+-   Specific figures/tables for publications; writing methods section or
+    contribution for scientific papers/grant proposals
+
+-   Functional Analysis using Advaita/GSEA/SetRank
+
+-   Letter of Support for grants
+
+-   GEO/SRA submissions
