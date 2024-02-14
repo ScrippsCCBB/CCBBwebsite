@@ -1,3 +1,12 @@
+---
+title: Transcriptomics
+layout: default
+nav_order: 2
+parent: Services and Guidelines
+has_children: false
+grand_parent: Main Page
+---
+
 # 2022 - CCBB Services: Transcriptomics
 
 **- RNA-Seq, UMI-based RNA-Seq, High Throughput RNA-Seq (“Drug-Seq”),

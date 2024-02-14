@@ -1,3 +1,12 @@
+---
+title: Metagenomics
+layout: default
+nav_order: 2
+parent: Services and Guidelines
+grand_parent: Main Page
+has_children: false
+---
+
 # 2022 - CCBB Services: Metagenomics
 
 **- 16S rRNA-Seq**

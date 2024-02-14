@@ -1,3 +1,12 @@
+---
+title: FileZilla Instructions
+layout: default
+nav_order: 2
+parent: Services and Guidelines
+grand_parent: Main Page
+has_children: false
+---
+
 # Accessing Dispatched Data from CCBB
 
 **Instructions apply to both Windows and MacOS**

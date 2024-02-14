@@ -1,3 +1,13 @@
+---
+title: Sequencing Project Guidelines
+layout: default
+nav_order: 2
+parent: Services and Guidelines
+has_children: false
+grand_parent: Main Page
+
+---
+
 # 2022 - Sequencing Project Guidelines
 
 Have a sequencing project? Follow the steps below for an effective and

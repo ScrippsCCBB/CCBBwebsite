@@ -1,3 +1,11 @@
+---
+title: RNASeq Pipeline
+layout: default
+parent: Services and Guidelines
+grand_parent: Main Page
+has_children: false
+---
+
 <figure>
 <img src="../docs/assets/images/nfcore_pipeline.png"
 alt="NF Core Pipeline" />
