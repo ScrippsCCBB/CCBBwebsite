@@ -1,9 +1,7 @@
 ---
-title: Main Page
+title: CCBB 
 date: "2023-12-27"
 ---
-
-# Table of Contents
 
 ## Pages
 
