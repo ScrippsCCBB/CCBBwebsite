@@ -9,12 +9,6 @@ date: "2023-12-27"
 
 -   [About](docs/subpages/about.md)
 -   [Services](docs/subpages/services.md)
--   [Sequencing](docs/subpages/sequencing.md)
--   [Publications](docs/subpages/publications.md)
--   [Submit Request](docs/subpages/submit_request.md)
--   [Research](docs/subpages/research.md)
--   [Team](docs/subpages/team.md)
--   [Resources](docs/subpages/resources.md)
 -   [Contact](docs/subpages/contact.md)
 
 ## Services and Guidelines
