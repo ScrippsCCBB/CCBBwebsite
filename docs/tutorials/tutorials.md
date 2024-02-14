@@ -1,9 +1,6 @@
 ---
 title: Services and Guidelines
 date: "2023-12-27"
-has_children: true
-parent: Main Page
-has_toc: false
 ---
 
 ## Tutorials

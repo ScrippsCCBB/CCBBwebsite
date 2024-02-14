@@ -1,9 +1,5 @@
 ---
-layout: default
 title: Aviti Demux Process
-nav_order: 2
-parent: Main Page
-has_children: false
 ---
 
 <details open markdown="block">

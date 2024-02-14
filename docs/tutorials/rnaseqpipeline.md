@@ -1,9 +1,5 @@
 ---
 title: RNASeq Pipeline
-layout: default
-parent: Services and Guidelines
-grand_parent: Main Page
-has_children: false
 ---
 
 <figure>

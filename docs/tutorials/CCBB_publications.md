@@ -1,10 +1,5 @@
 ---
 title: Publications
-layout: default
-nav_order: 2
-parent: Services and Guidelines
-has_children: false
-grand_parent: Main Page
 ---
 
 # 2022 - CCBB Publications (2021 Onwards)
