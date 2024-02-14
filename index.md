@@ -30,5 +30,5 @@ date: "2023-12-27"
 
 ## Demux Processes
 
--   [Aviti Demux](docs/demux_processes/rnaseqpipeline.md)
+-   [Aviti Demux](docs/demux_processes/aviti_demux.md)
 
