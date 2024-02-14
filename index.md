@@ -20,7 +20,3 @@ date: "2023-12-27"
 -   [FileZilla Instructions CCBB](docs/tutorials/FileZilla_Instructions_CCBB.md)
 -   [RNAseq Pipeline Tutorial](docs/tutorials/rnaseqpipeline.md)
 
-## Demux Processes
-
--   [Aviti Demux](docs/demux_processes/aviti_demux.md)
-
