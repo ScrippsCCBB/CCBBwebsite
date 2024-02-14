@@ -8,9 +8,9 @@ Have a sequencing project? Follow the steps below for an effective and
 efficient outcome for your requests:
 
 **STEP 1:** Email Steve Head, Genomics Core Director, at
-<a href="mailto:shead.at.scripps.edu">shead.at.scripps.edu</a> to
+<a href="mailto:shead@scripps.edu">shead@scripps.edu</a> to
 discuss your proposed project and include
-<a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a> if you are
+<a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a> if you are
 interested in Raw data / fastqs / data analyses. This step is critical
 to identify and allocate the right set of resources for good time/cost
 estimates.
@@ -26,14 +26,14 @@ if this is your first sequencing project.
 **STEP 3:** If you already have access to the Genomics Core facility,
 please login and submit the Sample Submission form available under the
 “Request Services” tab. Need help? Email Sheila Roberts Weiland at
-<a href="mailto:shkay.at.scripps.edu">shkay.at.scripps.edu</a>.
+<a href="mailto:shkay@scripps.edu">shkay@scripps.edu</a>.
 
 **STEP 4:** Samples can be submitted to the Genomics Core facility
 during office hours on weekdays. Coordinate with John
-(<a href="mailto:jshimo.at.scripps.edu">jshimo.at.scripps.edu</a>),
+(<a href="mailto:jshimo@scripps.edu">jshimo@scripps.edu</a>),
 Jessica
-(<a href="mailto:jledesma.at.scripps.edu">jledesma.at.scripps.edu</a>),
-or Nick (<a href="mailto:nvlee.at.scripps.edu">nvlee.at.scripps.edu</a>)
+(<a href="mailto:jledesma@scripps.edu">jledesma@scripps.edu</a>),
+or Nick (<a href="mailto:nvlee@scripps.edu">nvlee@scripps.edu</a>)
 to leave your samples in the freezer near the front door of the
 facility:
 
@@ -51,7 +51,7 @@ results of analysis (any processed data) must create an AWS S3 bucket
 with specifications provided
 <a href="https://github.com/ScrippsCCBB/CCBBwebsite/blob/main/DataDispatch_via_AWS_S3bucket.pdf">here</a>
 and share the requested details with
-<a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a> at the time
+<a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a> at the time
 of sample submission.
 
 **STEP 7:** Consult our services page and click the relevant service

@@ -37,7 +37,7 @@ Duplicates, Base (Quality Score) Recalibration, Variant Calling
 (germline/somatic variants specific software), Annotation and QC
 plots/tables.
 
-**Email to <a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a>
+**Email to <a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a>
 to set up a consultation meeting for additional service(s).**
 
 **Additional services:** Consult CCBB to get a quote/estimation of

@@ -57,7 +57,7 @@ MultiQC summary file with several QC plots/tables.
 <!-- The content continues similarly for UMI-based RNA-Seq, High Throughput RNA-Seq, SmallRNA-Seq, and Single cell RNA-Seq -->
 <!-- Skipping to the end for Additional services -->
 
-**Email to <a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a>
+**Email to <a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a>
 to set up a consultation meeting for additional service(s).**
 
 **Additional services:** Consult CCBB to get a quote/estimation of

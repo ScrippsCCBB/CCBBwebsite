@@ -28,7 +28,7 @@ amplicon reads using Illumina’s BaseSpace application.
 
 -   MultiQC for aggregate report describing results
 
-**Email to <a href="mailto:ccbb.at.scripps.edu">ccbb.at.scripps.edu</a>
+**Email to <a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a>
 to set up a consultation meeting for additional service(s).**
 
 **Additional services:** Consult CCBB to get a quote/estimation of
