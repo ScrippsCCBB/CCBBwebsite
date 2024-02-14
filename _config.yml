@@ -1,4 +1,4 @@
-theme: just-the-docs
+# theme: just-the-docs
 markdown: kramdown
 exclude: ['*.Rmd']
 plugins:
