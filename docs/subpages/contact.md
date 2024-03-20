@@ -1,5 +1,5 @@
 For all general queries relating to data analysis and data distribution,
-please email us at ccbb.at scripps.edu .
+please email us at ccbb@scripps.edu
 
 Scripps CCBB core: SR402 A/B, fourth floor (next to the Scripps Library)
 in Stein Research Building
