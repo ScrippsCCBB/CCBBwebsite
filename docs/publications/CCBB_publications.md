@@ -4,7 +4,7 @@ title: Publications
 
 # CCBB Publications 2021 Onwards
 
-* **Human-specific duplicate CHRFAM7A gene is associated with more severe osteoarthritis and amplifies pain behaviours:** Courties A, Olmer M, Myers K, Ordoukhanian P, Head SR, **Natarajan P**, Berenbaum F, Sellam J, Lotz MK. Ann Rheum Dis. 2023 May;82(5):710-718. doi: 10.1136/ard-2022-223470. Epub 2023 Jan 10. PMID: 36627169 PMCID: PMC10101906 (available on 2024-05-01).
+* **Human-specific duplicate CHRFAM7A gene is associated with more severe osteoarthritis and amplifies pain behaviours:** Courties A, Olmer M, Myers K, Ordoukhanian P, Head SR, Natarajan P, Berenbaum F, Sellam J, Lotz MK. Ann Rheum Dis. 2023 May;82(5):710-718. doi: 10.1136/ard-2022-223470. Epub 2023 Jan 10. PMID: 36627169 PMCID: PMC10101906 (available on 2024-05-01).
 
 * **Senescent cell population with ZEB1 transcription factor as its main regulator promotes osteoarthritis in cartilage and meniscus:** Swahn H, Li K, Duffy T, Olmer M, D'Lima DD, Mondala TS, Natarajan P, Head SR, Lotz MK. Ann Rheum Dis. 2023 Mar;82(3):403-415. doi: 10.1136/ard-2022-223227. Epub 2022 Dec 23. PMID: 36564153 PMCID: PMC10076001
   
