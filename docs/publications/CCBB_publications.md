@@ -4,6 +4,8 @@ title: Publications
 
 # CCBB Publications 2021 Onwards
 
+* **Senescent cell population with ZEB1 transcription factor as its main regulator promotes osteoarthritis in cartilage and meniscus:** Swahn H, Li K, Duffy T, Olmer M, D'Lima DD, Mondala TS, Natarajan P, Head SR, Lotz MK. Ann Rheum Dis. 2023 Mar;82(3):403-415. doi: 10.1136/ard-2022-223227. Epub 2022 Dec 23. PMID: 36564153 PMCID: PMC10076001
+  
 * **Krüppel-like factor-4 and Krüppel-like factor-2 are important
     regulators of joint tissue cells and protect against tissue
     destruction and inflammation in osteoarthritis:** Kawata M, Teramura
