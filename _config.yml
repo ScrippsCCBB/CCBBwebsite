@@ -7,3 +7,9 @@ plugins:
   - jekyll-spaceship
   - jekyll-toc
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
