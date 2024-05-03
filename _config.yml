@@ -47,6 +47,15 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+defaults:
+  # _docs
+  - scope:
+      path: ""
+    values:
+      sidebar:
+        nav: "blah"
+
+
 
 category_archive:
   type: liquid
