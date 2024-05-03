@@ -1,7 +1,7 @@
 ---
 title: CCBB Services Epigenomics
 layout: single
-permalink: /pages/services/epigenomics
+permalink: /pages/services/epigenomics/
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: CCBB Services Metagenomics
 layout: single
-permalink: /pages/services/metagenomics
+permalink: /pages/services/metagenomics/
 ---
 
 
