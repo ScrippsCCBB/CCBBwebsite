@@ -1,7 +1,9 @@
 ---
 title: CCBB 
 date: "2023-12-27"
-toc: true
+layout: single
+sidebar:
+  nav: "docs"
 ---
 
 ## Pages
