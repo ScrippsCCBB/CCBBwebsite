@@ -1,5 +1,54 @@
 main:
-  - title: "About"
-    url: /docs/subpages/about.html
-  - title: "Posts"
-    url: /docs/
+  - title: "Pages"
+    url: /docs/test.md
+  - title: "Guidelines"
+    url: /docs/tutorials/
+  - title: "Services"
+    url: /docs/services/
+  - title: "Publications"
+    url: /docs/publications/
+  - title: "Provide Feedback"
+    url: /docs/feedback/
+blah:
+  - title: "Pagesasf"
+    children:
+      - title: "About"
+        url: /pages/about/
+      - title: "Team"
+        url: /docs/subpages/CCBB_team.md
+  - title: "Services"
+    url: /docs/subpages/services.html
+  - title: "Contact"
+    url: /docs/subpages/contact.html
+
+  - title: Guidelines
+    children:
+      - title: "CCBB Project Guidelines"
+        url: /docs/tutorials/CCBB_project_guidelines.md
+  - title: Services
+    children:
+      - title: "CCBB Services Epigenomics"
+        url: /docs/services/CCBB_services_epigenomics.md
+      - title: "CCBB Services Genomics"
+        url: /docs/services/CCBB_services_genomics.md
+      - title: "CCBB Services Metagenomics"
+        url: /docs/services/CCBB_services_metagenomics.md
+      - title: "CCBB Services Transcriptomics"
+        url: /docs/services/CCBB_services_transcriptomics.md
+      - title: "CCBB FlowCytometry Analysis"
+        url: /docs/services/CCBB_flowcy.md
+  - title: Highlighted Publications
+    children:
+      - title: "CCBB Publications"
+        url: /docs/publications/CCBB_publications.md
+  - title: Specific Instructions
+    children:
+      - title: "FileZilla Instructions CCBB"
+        url: docs/tutorials/FileZilla_Instructions_CCBB.md
+      - title: "AWS Data Dispatch"
+        url: /docs/tutorials/aws_data_dispatch.md
+  - title: Tutorials
+    children:
+      - title: "RNAseq Pipeline Tutorial"
+        url: docs/tutorials/rnaseqpipeline.md
+
