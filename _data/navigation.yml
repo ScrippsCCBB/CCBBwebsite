@@ -1,6 +1,6 @@
 main:
   - title: "Services"
-    url: /pages/services/
+    url: /pages/services_summary/
   # - title: "Tutorials"
   #   url: /pages/tutorials/
   - title: "Publications"

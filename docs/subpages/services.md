@@ -1,6 +1,6 @@
 --- 
 layout: single
-permalink: /pages/services/
+permalink: /pages/services_summary/
 title: "Services"
 
 ---
@@ -9,7 +9,7 @@ Analyses: We provide a variety of standard and custom sequencing data analyses
 
 |                       |                                |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Transcriptomics](./pages/services/transcriptomics/)       | RNA-Seq, UMI-based RNA-Seq, High Throughput RNA-Seq (”Drug-Seq”), smallRNA-Seq (miRNA-Seq) |
+| [Transcriptomics](./transcriptomics/)       | RNA-Seq, UMI-based RNA-Seq, High Throughput RNA-Seq (”Drug-Seq”), smallRNA-Seq (miRNA-Seq) |
 | Single-cell analytics | Gene expression, Immune profiling (VDJ, VDJ+Gene expression), Epigenome profiling (ATAC, Multiome ATAC + Gene expression) |
 | Spatial genomics      | GeoMx Digital Spatial Profiling (nanoString) <br> Visium Spatial transcriptomics (10x Genomics) |
 | [Genomics](./pages/services/genomics/)  | SNP-based demultiplexing of multiplexed data <br> Exome, Whole Genome sequencing data analyses, SNPs, indels, CNVs  |
