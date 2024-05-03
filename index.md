@@ -1,7 +1,6 @@
 ---
 title: CCBB 
 date: "2023-12-27"
-toc: true
 ---
 
 ## Pages
