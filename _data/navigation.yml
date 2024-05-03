@@ -10,7 +10,6 @@ main:
   - title: "Provide Feedback"
     url: /pages/feedback/
     
-    
 blah:
   - title: "Pagesasf"
     children:
@@ -30,7 +29,7 @@ blah:
   - title: Services
     children:
       - title: "CCBB Services Epigenomics"
-        url: /pages/epigenomics/
+        url: /docs/services/CCBB_services_epigenomics.md
       - title: "CCBB Services Genomics"
         url: /docs/services/CCBB_services_genomics.md
       - title: "CCBB Services Metagenomics"

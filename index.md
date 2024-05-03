@@ -1,8 +1,7 @@
 ---
 layout: home
 title: CCBB 
-date: "2023-12-27"  
-
+date: "2023-12-27"
 ---
 
 ## Pages
