@@ -14,8 +14,8 @@ blah:
     children:
       - title: "About"
         url: /pages/about/
-      # - title: "Team"
-        # url: /pages/CCBB_team/
+      - title: "Team"
+      url: /pages/team/
       - title: "Contact"
         url: /pages/contact/
   - title: Guidelines
