@@ -1,8 +1,8 @@
 main:
   - title: "Services"
     url: /pages/services/
-  - title: "Tutorials"
-    url: /pages/tutorials/
+  # - title: "Tutorials"
+  #   url: /pages/tutorials/
   - title: "Publications"
     url: /pages/publications/
   - title: "Provide Feedback"

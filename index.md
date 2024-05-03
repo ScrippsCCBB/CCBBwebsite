@@ -4,35 +4,11 @@ title: CCBB
 date: "2023-12-27"
 ---
 
-## Pages
+# CCBB - Center for Computational Biology & Bioinformatics (CCBB)
 
--   [Team](/pages/about/)
--   [About](docs/subpages/about.md)
--   [Services](docs/subpages/services.md)
--   [Contact](docs/subpages/contact.md)
+Welcome to the CCBB website! This website provides information related to our services, methods, and information related to the CCBB. This website is for current CCBB users, as well as prospective users. 
 
-## Guidelines
+For any questions/requests, please email <a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a>, or use the [feedback submission form](/pages/feedback/)
 
--   [CCBB Project Guidelines](docs/tutorials/CCBB_project_guidelines.md)
-
-## Services
-
--   [CCBB Services Epigenomics](/docs/services/CCBB_services_epigenomics.md)
--   [CCBB Services Genomics](docs/services/CCBB_services_genomics.md)
--   [CCBB Services Metagenomics](docs/services/CCBB_services_metagenomics.md)
--   [CCBB Services Transcriptomics](docs/services/CCBB_services_transcriptomics.md)
--   [CCBB FlowCytometry Analysis](docs/services/CCBB_flowcy.md)
-
-## Highlighted Publications
-
--   [CCBB Publications](docs/publications/CCBB_publications.md)
-
-## Specific Instructions
-
--   [FileZilla Instructions CCBB](docs/tutorials/FileZilla_Instructions_CCBB.md)
--   [AWS Data Dispatch](docs/tutorials/aws_data_dispatch.md)
-
-## Tutorials
-
--   [RNAseq Pipeline Tutorial](docs/tutorials/rnaseqpipeline.md)
+The Center for Computational Biology & Bioinformatics (CCBB) provides institute-wide bioinformatics analytics for Scripps Research as well as for external collaborators. We offer scientific support to assist in the experimental design, collection, analysis, integration and dissemination of biomedical data and knowledge. Projects will often vary in time and cost depending on the scientific goals of the work and the desired level of analysis. We work with a wide range of bioinformatics analyses and support research in a cost-effective manner. 
 
