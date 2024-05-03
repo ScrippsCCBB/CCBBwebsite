@@ -4,6 +4,8 @@ layout: single
 permalink: /pages/services/genomics/
 ---
 
+{% include_relative pricing.md %}
+
 
 # CCBB services - Genomics
 
