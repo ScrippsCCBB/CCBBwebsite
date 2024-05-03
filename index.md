@@ -1,11 +1,13 @@
 ---
+layout: home
 title: CCBB 
-date: "2023-12-27"
+date: "2023-12-27"  
+
 ---
 
 ## Pages
 
--   [Team](docs/subpages/CCBB_team.md)
+-   [Team](/pages/about/)
 -   [About](docs/subpages/about.md)
 -   [Services](docs/subpages/services.md)
 -   [Contact](docs/subpages/contact.md)
@@ -16,7 +18,7 @@ date: "2023-12-27"
 
 ## Services
 
--   [CCBB Services Epigenomics](docs/services/CCBB_services_epigenomics.md)
+-   [CCBB Services Epigenomics](/docs/services/CCBB_services_epigenomics.md)
 -   [CCBB Services Genomics](docs/services/CCBB_services_genomics.md)
 -   [CCBB Services Metagenomics](docs/services/CCBB_services_metagenomics.md)
 -   [CCBB Services Transcriptomics](docs/services/CCBB_services_transcriptomics.md)
