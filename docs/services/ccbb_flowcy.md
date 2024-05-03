@@ -1,14 +1,11 @@
 ---
 title: Flow Cytometry Analysis
+layout: single
+permalink: /pages/services/flowcy
 ---
 
-# Pricing
 
-| Organization        | CCBB Hourly Rate |
-|---------------------|------------------|
-| Scripps Internal    | $125.00          |
-| External non-profit | $250.00          |
-| External for-profit | $312.50          |
+{% include_relative pricing.md %}
 
 # CCBB services - Flow Cytometry Analysis
 

@@ -1,3 +1,10 @@
+--- 
+layout: single
+permalink: /pages/contact/
+title: "Contact"
+
+---
+
 For all general queries relating to data analysis and data distribution,
 please email us at ccbb@scripps.edu
 

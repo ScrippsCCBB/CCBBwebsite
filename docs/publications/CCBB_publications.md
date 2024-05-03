@@ -1,5 +1,7 @@
 ---
 title: Publications
+layout: single
+permalink: /pages/publications/
 ---
 
 # CCBB Publications 2021 Onwards

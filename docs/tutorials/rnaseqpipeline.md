@@ -1,5 +1,7 @@
 ---
 title: RNASeq Pipeline
+permalink: /pages/tutorials/rnaseqpipeline/
+layout: single
 ---
 
 ![NF Core Pipeline](../assets/images/nfcore_pipeline.png)

@@ -1,8 +1,8 @@
 ---
 title: Sequencing Project Guidelines
+permalink: /pages/tutorials/guidelines/
+layout: single
 ---
-
-# Sequencing Project Guidelines
 
 Have a sequencing project? Follow the steps below for an effective and efficient outcome for your requests:
 

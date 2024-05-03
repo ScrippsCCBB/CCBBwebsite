@@ -1,55 +1,53 @@
 main:
-  - title: "Pages"
-    url: /docs/test.md
-  - title: "Guidelines"
-    url: /docs/tutorials/
   - title: "Services"
-    url: /docs/services/
+    url: /pages/services/
+  - title: "Tutorials"
+    url: /pages/tutorials/
   - title: "Publications"
-    url: /docs/publications/
+    url: /pages/publications/
   - title: "Provide Feedback"
     url: /pages/feedback/
+  - title: "Submit Request"
     
 blah:
-  - title: "Pagesasf"
+  - title: "Information"
     children:
       - title: "About"
         url: /pages/about/
-      - title: "Team"
-        url: /docs/subpages/CCBB_team.md
-  - title: "Services"
-    url: /docs/subpages/services.html
-  - title: "Contact"
-    url: /docs/subpages/contact.html
-
+      # - title: "Team"
+        # url: /pages/CCBB_team/
+      - title: "Contact"
+        url: /pages/contact/
   - title: Guidelines
     children:
-      - title: "CCBB Project Guidelines"
-        url: /docs/tutorials/CCBB_project_guidelines.md
+      - title: "Project Guidelines"
+        url: /pages/tutorials/guidelines/
   - title: Services
     children:
-      - title: "CCBB Services Epigenomics"
-        url: /docs/services/CCBB_services_epigenomics.md
-      - title: "CCBB Services Genomics"
-        url: /docs/services/CCBB_services_genomics.md
-      - title: "CCBB Services Metagenomics"
-        url: /docs/services/CCBB_services_metagenomics.md
-      - title: "CCBB Services Transcriptomics"
-        url: /docs/services/CCBB_services_transcriptomics.md
-      - title: "CCBB FlowCytometry Analysis"
-        url: /docs/services/CCBB_flowcy.md
-  - title: Highlighted Publications
+      - title: "Epigenomics"
+        url: /pages/services/epigenomics/
+      - title: "Genomics"
+        url: /pages/services/genomics/
+      - title: "Metagenomics"
+        url: /pages/services/metagenomics/
+      - title: "Transcriptomics"
+        url: /pages/services/transcriptomics/
+  - title: Publications
     children:
-      - title: "CCBB Publications"
-        url: /docs/publications/CCBB_publications.md
-  - title: Specific Instructions
+      - title: "Publications"
+        url: /pages/publications/
+  - title: Instructions
     children:
-      - title: "FileZilla Instructions CCBB"
-        url: docs/tutorials/FileZilla_Instructions_CCBB.md
+      - title: "FileZilla Download"
+        url: /pages/tutorials/filezilla/
       - title: "AWS Data Dispatch"
-        url: /docs/tutorials/aws_data_dispatch.md
-  - title: Tutorials
+        url: /pages/tutorials/aws_data_dispatch/
+  # - title: Tutorials
+  #   children:
+  #     - title: "RNAseq Pipeline Tutorial"
+  #       url: -pages/tutorials/rnaseqpipeline/
+  - title: Methods
     children:
       - title: "RNAseq Pipeline Tutorial"
-        url: docs/tutorials/rnaseqpipeline.md
+        url: /pages/tutorials/rnaseqpipeline/
 

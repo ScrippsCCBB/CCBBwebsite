@@ -1,13 +1,20 @@
+--- 
+layout: single
+permalink: /pages/services/
+title: "Services"
+
+---
+
 Analyses: We provide a variety of standard and custom sequencing data analyses
 
 |                       |                                |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Transcriptomics](../services/CCBB_services_transcriptomics.md)       | RNA-Seq, UMI-based RNA-Seq, High Throughput RNA-Seq (”Drug-Seq”), smallRNA-Seq (miRNA-Seq) |
+| [Transcriptomics](/pages/services/transcriptomics/)       | RNA-Seq, UMI-based RNA-Seq, High Throughput RNA-Seq (”Drug-Seq”), smallRNA-Seq (miRNA-Seq) |
 | Single-cell analytics | Gene expression, Immune profiling (VDJ, VDJ+Gene expression), Epigenome profiling (ATAC, Multiome ATAC + Gene expression) |
 | Spatial genomics      | SNP-based demultiplexing of multiplexed data <br> Visium Spatial transcriptomics (10x Genomics) |
-| [Genomics](../services/CCBB_services_genomics.md)  | GeoMx Digital Spatial Profiling (nanoString) <br> Exome, Whole Genome sequencing data analyses, SNPs, indels, CNVs  |
-| [Epigenomics](../services/CCBB_services_epigenomics.md)           | ChIP-Seq/eCLIP-Seq/CUT&RUN/RIP-Seq, ATAC-Seq   |
-| [Metagenomics](../services/CCBB_services_metagenomics.md)          | 16S rRNA-Seq |
+| [Genomics](/pages/services/genomics/)  | GeoMx Digital Spatial Profiling (nanoString) <br> Exome, Whole Genome sequencing data analyses, SNPs, indels, CNVs  |
+| [Epigenomics](/pages/services/epigenomics/)           | ChIP-Seq/eCLIP-Seq/CUT&RUN/RIP-Seq, ATAC-Seq   |
+| [Metagenomics](/pages/services/metagenomics/)          | 16S rRNA-Seq |
 | Custom analyses       | Sequencing data analyses for specific lab projects that use standard tools, software packages and/or custom code/script developed by CCBB. |
 | Public Datasets       | Analyses on public dataset available at NCBI’s GEO database repository |
 | Functional Analyses   | Advaita’s iPathwayGuide for a full comprehensive functional analysis including pathways/GO terms/mRNAs/upstream regulators/diseases ADVAITA service request <br> Gene Set Enrichment Analysis (GSEA) |

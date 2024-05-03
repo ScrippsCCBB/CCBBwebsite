@@ -1,5 +1,7 @@
 ---
 title: FileZilla Instructions
+permalink: /pages/tutorials/filezilla/
+layout: single
 ---
 
 # Accessing Dispatched Data from CCBB
