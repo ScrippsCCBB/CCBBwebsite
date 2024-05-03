@@ -6,7 +6,9 @@ date: "2023-12-27"
 
 # CCBB - Center for Computational Biology & Bioinformatics (CCBB)
 
-Welcome to the CCBB website! This website provides information related to our services, methods, and information related to the CCBB. This website is for current CCBB users, as well as prospective users. 
+Welcome to the CCBB website! This website provides information related to our services, methods, and instructions. 
+
+This website is for current CCBB users, as well as prospective users. 
 
 For any questions/requests, please email <a href="mailto:ccbb@scripps.edu">ccbb@scripps.edu</a>, or use the [feedback submission form](./pages/feedback/)
 
