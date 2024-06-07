@@ -9,7 +9,7 @@ Interested in Bioinformatics? Join Computational Biology and Bioinformatics Affi
 Computational Biology track will be added to the Scripps Research Graduate Program this fall, 2022!
 
 
--[Bioconductor](https://bioconductor.org/)  
+- [Bioconductor](https://bioconductor.org/)  
 [https://www.nextflow.io/]  
 [https://nf-co.re/pipelines]  
 
