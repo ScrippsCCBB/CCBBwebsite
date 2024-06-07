@@ -1,6 +1,6 @@
 ---
 title: Sequencing Project Guidelines
-permalink: /pages/tutorials/guidelines/
+permalink: /pages/guidelines/
 layout: single
 ---
 
