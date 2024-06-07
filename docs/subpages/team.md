@@ -11,6 +11,5 @@ We as a team bring in over 20 years of bioinformatic experience in the area of N
 |----------------------|-------------------------|
 | Padma Natarajan      | Scientific Director     |
 | Aishwarya Sundaresan | Bioinformatics Analyst III |
-| Garrett Miller       | Biostatistician         |
 
 **Contact Center for Computational Biology and Bioinformatics Core at [ccbb.at.scripps.edu](ccbb.at.scripps.edu)**
