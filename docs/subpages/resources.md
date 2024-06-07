@@ -10,7 +10,7 @@ Computational Biology track will be added to the Scripps Research Graduate Progr
 
  
 
-[https://bioconductor.org/]  
+[ https://bioconductor.org/ ]  
 [https://www.nextflow.io/]  
 [https://nf-co.re/pipelines]  
 
