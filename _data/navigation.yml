@@ -8,7 +8,7 @@ main:
   - title: "Provide Feedback"
     url: /pages/feedback/
   - title: "Submit Request"
-    url: /pages/submit_request/
+    url: /pages/Submit_Request/
     
 blah:
   - title: "Information"
