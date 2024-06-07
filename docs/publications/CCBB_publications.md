@@ -5,7 +5,10 @@ permalink: /pages/publications/
 ---
 
 # CCBB Publications 2021 Onwards
-
+* **Shared and Compartment-Specific Processes in Nucleus Pulposus and Annulus Fibrosus During Intervertebral Disc Degeneration:** Swahn H, Mertens J, Olmer M, Myers K, Mondala TS, Natarajan P, Head SR, Alvarez-Garcia O, Lotz MK. Adv Sci (Weinh) 2024 May;11(17):e2309032. Epub 2024 Feb 25.PMID: 38403470; PMCID: PMC11077672; doi: 10.1002/advs.202309032
+  
+* **Transcriptomic analyses of joint tissues during osteoarthritis development in a rat model reveal dysregulated mechanotransduction and extracellular matrix pathways** Hu Y, Li K, Swahn H, Ordoukhanian P, Head SR, Natarajan P, Woods AK, Joseph SB, Johnson KA, Lotz MK. Osteoarthritis Cartilage. 2023 Feb;31(2):199-212. doi:10.1016/j.joca.2022.10.003. Epub 2022 Oct 28. PMID: 36354073
+  
 * **Human-specific duplicate CHRFAM7A gene is associated with more severe osteoarthritis and amplifies pain behaviours:** Courties A, Olmer M, Myers K, Ordoukhanian P, Head SR, Natarajan P, Berenbaum F, Sellam J, Lotz MK. Ann Rheum Dis. 2023 May;82(5):710-718. doi: 10.1136/ard-2022-223470. Epub 2023 Jan 10. PMID: 36627169 PMCID: PMC10101906 (available on 2024-05-01).
 
 * **Senescent cell population with ZEB1 transcription factor as its main regulator promotes osteoarthritis in cartilage and meniscus:** Swahn H, Li K, Duffy T, Olmer M, D'Lima DD, Mondala TS, Natarajan P, Head SR, Lotz MK. Ann Rheum Dis. 2023 Mar;82(3):403-415. doi: 10.1136/ard-2022-223227. Epub 2022 Dec 23. PMID: 36564153 PMCID: PMC10076001
