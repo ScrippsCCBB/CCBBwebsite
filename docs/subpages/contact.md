@@ -11,6 +11,4 @@ please email us at ccbb@scripps.edu
 Scripps CCBB core: SR402 A/B, fourth floor (next to the Scripps Library)
 in Stein Research Building
 
-Genomics Core: Skaggs Institute For Chemical Biology building
-
 Scripps Research: 10596 N. Torrey Pines Rd. MB-28, La Jolla, CA 92037
