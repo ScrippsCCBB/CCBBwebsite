@@ -16,6 +16,6 @@ Computational Biology track will be added to the Scripps Research Graduate Progr
 
 [https://www.10xgenomics.com/products]  
 [https://support.10xgenomics.com/] 
-[https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw]  
-[https://www.youtube.com/hashtag/researchersatwork]  
+- [Statistics](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
+ 
 [https://www.ebi.ac.uk/training/live-events]  
