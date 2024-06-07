@@ -16,5 +16,5 @@ Please consider these guidelines for including CCBB personnel who worked on your
 
 ### CCBB Data Guidelines
 - Internal (Scripps) customers: CCBB takes the responsibility to archive the sequencing data, but recommends customers to maintain their own backup of the data dispatched.
-- External (Non-Scripps) customers: CCBB’s responsibility for the sequencing data ends once the data is dispatched and verified for its integrity by the customers.
+- External (Non-Scripps) customers: CCBB’s responsibility for the sequencing data ends once the data is dispatched and verified for its integrity by the customers.  
 Please contact ccbb.at.scripps.edu for your questions.
