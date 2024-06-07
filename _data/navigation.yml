@@ -22,7 +22,7 @@ blah:
   - title: Guidelines
     children:
       - title: "Project Guidelines"
-        url: /pages/tutorials/guidelines/
+        url: /pages/guidelines/
       - title: "CCBB Guidelines"
         url: /pages/CCBB Guidelines/        
   - title: Services
