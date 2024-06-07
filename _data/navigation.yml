@@ -23,6 +23,8 @@ blah:
     children:
       - title: "Project Guidelines"
         url: /pages/tutorials/guidelines/
+      - title: "CCBB Guidelines"
+        url: /pages/CCBB Guidelines/        
   - title: Services
     children:
       - title: "Epigenomics"
