@@ -5,7 +5,7 @@ title: "CCBB Guidelines"
 
 ---
 
-* ** CCBB Authorship/Acknowledgement Guidelines ** *
+### CCBB Authorship/Acknowledgement Guidelines
   
 Please consider these guidelines for including CCBB personnel who worked on your projects as co-authors in your publications.
 Payment of expenses for CCBB services rendered and authorship are not mutually exclusive. Depending on their contribution, CCBB personnel should be considered
@@ -16,7 +16,7 @@ CCBB personnel who have contributed to the project, but whose contributions do n
 section of the manuscript as follows:
 “The authors acknowledge the support of the Center for Computational Biology and Bioinformatics (CCBB) at Scripps Research”.
 
-* ** CCBB Data Guidelines ** *
-Internal (Scripps) customers: CCBB takes the responsibility to archive the sequencing data, but recommends customers to maintain their own backup of the data dispatched.
-External (Non-Scripps) customers: CCBB’s responsibility for the sequencing data ends once the data is dispatched and verified for its integrity by the customers.
+### CCBB Data Guidelines
+-Internal (Scripps) customers: CCBB takes the responsibility to archive the sequencing data, but recommends customers to maintain their own backup of the data dispatched.
+-External (Non-Scripps) customers: CCBB’s responsibility for the sequencing data ends once the data is dispatched and verified for its integrity by the customers.
 Please contact ccbb.at.scripps.edu for your questions.
