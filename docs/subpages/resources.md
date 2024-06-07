@@ -4,7 +4,7 @@ layout: single
 title: "Resources"
 ---
 
-Interested in Bioinformatics? Join Computational Biology and Bioinformatics Affinity Group (CBB)  led by Scripps postdocs with the intention of providing TSRI and the larger San Diego bioinformatics community a collaborative network and relevant events.  Visit [CBB_Github] [1] () to learn more!
+Interested in Bioinformatics? Join Computational Biology and Bioinformatics Affinity Group (CBB) led by Scripps postdocs with the intention of providing TSRI and the larger San Diego bioinformatics community a collaborative network and relevant events.  Visit [CBB_Github](https://github.com/SuLab/TSRI-CBB) to learn more!  
 
 Computational Biology track will be added to the Scripps Research Graduate Program this fall, 2022!
 
