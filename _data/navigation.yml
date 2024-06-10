@@ -7,8 +7,6 @@ main:
     url: /pages/publications/
   - title: "Provide Feedback"
     url: /pages/feedback/
-  - title: "Submit Request"
-    url: /pages/Submit_Request/
     
 blah:
   - title: ""
@@ -19,12 +17,19 @@ blah:
         url: /pages/team/
       - title: "Contact"
         url: /pages/contact/
+        
+  - title: "Submit Request"
+    children:
+      - title: "Submit Request"
+        url: /pages/Submit_Request/
+        
   - title: Guidelines
     children:
       - title: "Project Guidelines"
         url: /pages/guidelines/
       - title: "CCBB Guidelines"
-        url: /pages/CCBB Guidelines/        
+        url: /pages/CCBB Guidelines/ 
+        
   - title: Services
     children:
       - title: "Epigenomics"
@@ -35,6 +40,7 @@ blah:
         url: /pages/services/metagenomics/
       - title: "Transcriptomics"
         url: /pages/services/transcriptomics/
+        
   - title: Publications
     children:
       - title: "Publications"
@@ -43,16 +49,19 @@ blah:
     children:
       - title: "Resources"
         url: /pages/resources/
+        
   - title: Instructions
     children:
       - title: "FileZilla Download"
         url: /pages/tutorials/filezilla/
       - title: "AWS Data Dispatch"
         url: /pages/tutorials/aws_data_dispatch/
+        
   # - title: Tutorials
   #   children:
   #     - title: "RNAseq Pipeline Tutorial"
   #       url: -pages/tutorials/rnaseqpipeline/
+  
   - title: Methods
     children:
       - title: "RNAseq Pipeline Tutorial"
