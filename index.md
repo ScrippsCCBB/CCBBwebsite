@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Center for Computational Biology & Bioinformatics (CCBB)
-date: "2023-12-27"
+date: "2024-06-10"
 ---
 
 Welcome to the CCBB website! This website provides information related to our services, methods, and instructions. 
