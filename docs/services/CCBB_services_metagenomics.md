@@ -23,7 +23,7 @@ Standard analysis: Taxonomic classification of 16S rRNA targeted amplicon reads 
 
 Project with >20 samples, nf-core/ampliseq workflow using QIIME2 software for taxonomic classification of 16S rRNA targeted amplicon reads, relative abundance tables, (alpha and beta) diversity analysis, read count report at every stage of analysis, MultiQC for aggregate report describing results.
 
-Email to ccbb@scripps.edu to set up a consultation meeting for additional service(s)
+Email to ccbb.at.scripps.edu to set up a consultation meeting for additional service(s)
 
 Additional services: 
 
