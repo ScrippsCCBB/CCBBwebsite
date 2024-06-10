@@ -23,13 +23,6 @@ blah:
       - title: "Submit Request"
         url: /pages/Submit_Request/
         
-  - title: Guidelines
-    children:
-      - title: "Project Guidelines"
-        url: /pages/guidelines/
-      - title: "CCBB Guidelines"
-        url: /pages/CCBB Guidelines/ 
-        
   - title: Services
     children:
       - title: "Epigenomics"
@@ -40,11 +33,19 @@ blah:
         url: /pages/services/metagenomics/
       - title: "Transcriptomics"
         url: /pages/services/transcriptomics/
+ 
+  - title: Guidelines
+    children:
+      - title: "Project Guidelines"
+        url: /pages/guidelines/
+      - title: "CCBB Guidelines"
+        url: /pages/CCBB Guidelines/ 
         
   - title: Publications
     children:
       - title: "Publications"
         url: /pages/publications/
+  
   - title: Resources
     children:
       - title: "Resources"
