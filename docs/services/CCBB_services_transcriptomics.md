@@ -115,7 +115,7 @@ FASTQ sequencing files from Nanostring GeoMx libraries processed using the GeoMx
 
 # Additional Services
 
-Email to ccbb@scripps.edu to set up a consultation meeting for additional service(s)
+Email to ccbb.at.scripps.edu to set up a consultation meeting for additional service(s)
 
 ## Additional services: Consult CCBB to get a quote/estimation of effort in hours. CCBB service hourly charges apply.
 
