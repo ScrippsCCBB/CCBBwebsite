@@ -93,7 +93,7 @@ Consult CCBB to get a quote/estimation of effort in hours. CCBB service hourly c
 
 
 
-Email [ccbb](ccbb@scripps.edu) to set up a consultation meeting for additional service(s)
+Email ccbb.at.scripps.edu to set up a consultation meeting for additional service(s)
 
 
 
