@@ -11,7 +11,7 @@ main:
     url: /pages/Submit_Request/
     
 blah:
-  - title: "Information"
+  - title: ""
     children:
       - title: "About"
         url: /pages/about/
