@@ -1,6 +1,6 @@
 ---
 layout: home
-title: CCBB - Center for Computational Biology & Bioinformatics (CCBB)
+title: Center for Computational Biology & Bioinformatics (CCBB)
 date: "2023-12-27"
 ---
 
