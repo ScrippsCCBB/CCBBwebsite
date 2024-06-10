@@ -78,7 +78,7 @@ Additional services: Consult CCBB to get a quote/estimation of effort in hours. 
 * GEO/SRA submissions
 
 
-Email to [ccbb](ccbb@scripps.edu) to set up a consultation meeting for additional service(s)
+Email to ccbb.at.scripps.edu to set up a consultation meeting for additional service(s)
 
 
 
