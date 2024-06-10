@@ -14,16 +14,7 @@ permalink: /pages/services/CCBB_services_functional_analysis/
 ## Advaita iPathwayGuide
 
 *Requirements*:
-
-1. Read targets reached (e.g. ~ 20 million reads per sample; human genome) for each of your samples in the study
-
-2. Number of sample submitted are less than 20
-
-3. Sample metadata (sample conditions and comparisons to be done) shared with CCBB prior to sequencing
-
-4. 3 or more biological replicates per condition in your experiment
-
-5. Reference genomes considered as standard: human, mouse, rat
+Reference genomes considered as standard: human, mouse, rat
 
 ## GSEA (Gene Set Enrichment Analysis) 
 
