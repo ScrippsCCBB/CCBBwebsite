@@ -33,6 +33,8 @@ blah:
         url: /pages/services/metagenomics/
       - title: "Transcriptomics"
         url: /pages/services/transcriptomics/
+      - title: "Functional Analysis"
+        url: /pages/services/CCBB_services_functional_analysis/
  
   - title: Guidelines
     children:
