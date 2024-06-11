@@ -1,6 +1,7 @@
 ---
 permalink: /pages/team/
 layout: single
+classes: wide
 title: "CCBB Team"
 ---
 
