@@ -16,7 +16,7 @@ permalink: /pages/services/genomics/
 
 * SNPs
 
-* indels
+* Indels
 
 * CNVs
 	
@@ -24,15 +24,15 @@ permalink: /pages/services/genomics/
 
 Requirements:
 
-1 Each sample in your project should have recommended read depth.
+1. Each sample in your project should have recommended read depth.
 
-2 Number of sample submitted are less than 20
+2. Number of sample submitted are less than 20
 
-3 Sample metadata (sample descriptions) shared with CCBB prior to sequencing
+3. Sample metadata (sample descriptions) shared with CCBB prior to sequencing
 
-4 Tumor / normal pairs (if any)
+4. Tumor / normal pairs (if any)
 
-5 Reference genomes considered as standard: human, mouse, rat
+5. Reference genomes considered as standard: human, mouse, rat
 
 ### Standard analysis (CCBB effort level - 2 to 4 hours; 3-5 business days)
 
@@ -49,7 +49,7 @@ Requirements:
 
 ### Standard analysis
 
-* nf-core/sarek workflow to detect variants on whole genome or targeted sequencing data: 
+* [nf-core/sarek](https://nf-co.re/sarek/3.2.1) workflow to detect variants on whole genome or targeted sequencing data: 
 
 * Data processing uses GATK4 best practices for alignment to reference genome using BWA
 
@@ -60,7 +60,6 @@ Requirements:
 * Variant Calling (germline/somatic variants specific software), Annotation and QC plots/tables provided.
 
 ## Additional analysis (consult CCBB for effort level and timeline for completion)
-
 
 Additional services: Consult CCBB to get a quote/estimation of effort in hours. CCBB service hourly charges apply.
 
