@@ -1,6 +1,7 @@
 ---
 title: CCBB Services Metagenomics
 layout: single
+classes: wide
 permalink: /pages/services/metagenomics/
 ---
 
