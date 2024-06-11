@@ -8,13 +8,14 @@ permalink: /pages/services/CCBB_services_functional_analysis/
 
 ## Functional Analysis
 
-* We offer functional analysis using Advaita's [iPathwayGuide](https://advaitabio.com/bioinformatics/ipathwayguide/) as well as [GSEA](https://www.gsea-msigdb.org/gsea/index.jsp).
+We offer functional analysis using Advaita's [iPathwayGuide](https://advaitabio.com/bioinformatics/ipathwayguide/) as well as [GSEA](https://www.gsea-msigdb.org/gsea/index.jsp).
 
 
 ## Advaita iPathwayGuide
 
-*Requirements*:
+*Requirements*:  
 Reference genomes considered as standard: human, mouse, rat
+please email ccbb.at.scripps.edu to request functional analysis using iPathwayGuide.  
 
 ## GSEA (Gene Set Enrichment Analysis) 
 
