@@ -1,6 +1,7 @@
 ---
 title: Functional Analysis
 layout: single
+classes: wide
 permalink: /pages/services/CCBB_services_functional_analysis/
 ---
 
