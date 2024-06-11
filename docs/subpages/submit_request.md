@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 permalink: /pages/Submit_Request/
 title: CCBB Service Request
 date: "2024-06-07"  
