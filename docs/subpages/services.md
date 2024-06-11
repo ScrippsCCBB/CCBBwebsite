@@ -1,5 +1,6 @@
 --- 
 layout: single
+classes: wide
 permalink: /pages/services_summary/
 title: "Services"
 
