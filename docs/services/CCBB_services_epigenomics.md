@@ -1,6 +1,7 @@
 ---
 title: CCBB Services Epigenomics
 layout: single
+classes: wide
 permalink: /pages/services/epigenomics/
 ---
 
