@@ -2,6 +2,7 @@
 title: Sequencing Project Guidelines
 permalink: /pages/guidelines/
 layout: single
+classes: wide
 ---
 
 Have a sequencing project? Follow the steps below for an effective and efficient outcome for your requests:
