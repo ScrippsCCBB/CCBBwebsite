@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 permalink: /pages/feedback/
 title: CCBB Survey
 date: "2023-12-27"  
