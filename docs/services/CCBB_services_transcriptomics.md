@@ -1,6 +1,7 @@
 ---
 title: Transcriptomics
 layout: single
+classes: wide
 permalink: /pages/services/transcriptomics/
 ---
 
