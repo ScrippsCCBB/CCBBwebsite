@@ -2,6 +2,7 @@
 title: "AWS Dispatch"
 permalink: /pages/tutorials/aws_data_dispatch/
 layout: single
+classes: wide
 ---
 
 # Instructions for efficient data dispatch via AWS S3 bucket 
