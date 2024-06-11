@@ -14,8 +14,9 @@ We offer functional analysis using Advaita's [iPathwayGuide](https://advaitabio.
 ## Advaita iPathwayGuide
 
 *Requirements*:  
-Reference genomes considered as standard: human, mouse, rat
-please email ccbb.at.scripps.edu to request functional analysis using iPathwayGuide.  
+Reference genomes considered as standard: human, mouse, rat  
+
+Please email ccbb.at.scripps.edu to request functional analysis using iPathwayGuide.  
 
 ## GSEA (Gene Set Enrichment Analysis) 
 
