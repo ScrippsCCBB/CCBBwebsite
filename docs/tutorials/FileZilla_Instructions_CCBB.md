@@ -2,6 +2,7 @@
 title: FileZilla Instructions
 permalink: /pages/tutorials/filezilla/
 layout: single
+classes: wide
 ---
 
 # Accessing Dispatched Data from CCBB
