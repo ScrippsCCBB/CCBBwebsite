@@ -1,6 +1,7 @@
 ---
 title: "About"
 layout: single
+classes: wide
 permalink: /pages/about/
 ---
 
