@@ -1,5 +1,6 @@
 ---
 layout: home
+classes: wide
 title: Center for Computational Biology & Bioinformatics (CCBB)
 date: "2024-06-10"
 ---
