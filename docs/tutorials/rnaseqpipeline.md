@@ -2,6 +2,7 @@
 title: RNASeq Pipeline
 permalink: /pages/tutorials/rnaseqpipeline/
 layout: single
+classes: wide
 ---
 
 ![NF Core Pipeline](../assets/images/nfcore_pipeline.png)
