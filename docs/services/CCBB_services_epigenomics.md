@@ -18,15 +18,15 @@ permalink: /pages/services/epigenomics/
 
 Requirements:
 
-1 Read targets reached (e.g. ~ 10 million reads per sample; human genome for each of your samples in the study)
+1. Read targets reached (e.g. ~ 10 million reads per sample; human genome for each of your samples in the study)
 
-2 Number of sample submitted are less than 10
+2. Number of sample submitted are less than 10
 
-3 Sample metadata (description of ChIP and INPUT samples shared with CCBB prior to sequencing)
+3. Sample metadata (description of ChIP and INPUT samples shared with CCBB prior to sequencing)
 
-4 Biological replicates if any for your ChIP samples
+4. Biological replicates if any for your ChIP samples
 
-5 Reference genomes considered as standard: human, mouse, rat
+5. Reference genomes considered as standard: human, mouse, rat
 
 ### Standard analysis (CCBB effort level - 5 hours; 3-5 business days)
 
