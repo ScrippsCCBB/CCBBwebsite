@@ -10,11 +10,11 @@ permalink: /pages/services/epigenomics/
 
 # CCBB services Epigenomics: 
 
-* ChIP-Seq/eCLIP-Seq/CUT&RUN/CUT&TAG/RIP-Seq
+* ChIP-Seq / eCLIP-Seq / CUT&RUN / CUT&TAG / RIP-Seq
 
 * ATAC-Seq 
 
-## ChIP-Seq/eCLIP-Seq/CUT&RUN/CUT&TAG/RIP-Seq  
+## ChIP-Seq / eCLIP-Seq / CUT&RUN / CUT&TAG / RIP-Seq  
 
 Requirements:
 
