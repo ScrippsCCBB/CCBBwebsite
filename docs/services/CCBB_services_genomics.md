@@ -1,6 +1,7 @@
 ---
 title: Genomics
 layout: single
+classes: wide
 permalink: /pages/services/genomics/
 ---
 
