@@ -102,17 +102,17 @@ More complex experimental designs and/or downstream analyses like differential e
 
 ## Spatial transcriptomics 
 
-### Visium Spatial Transcriptomics (10x Genomics) 
-
-#### Standard analysis 	using Space Ranger pipelines
-
-Visium spatial gene expression data with brightfield and fluorescence images to align reads, generate Feature Barcode matrices, and perform secondary analysis including clustering and differential gene expression.
-
 ### GeoMx Digital Spatial Profiling (Nanostring)
 
 #### Standard analysis 	using GeoMx pipeline 
 
 FASTQ sequencing files from Nanostring GeoMx libraries processed using the GeoMx NGS Pipeline to generate digital count conversion (.dcc) files. Zipped DCC files get uploaded to the GeoMx DSP system for downstream analysis.
+
+### Visium Spatial Transcriptomics (10x Genomics) 
+
+#### Standard analysis 	using Space Ranger pipelines
+
+Visium spatial gene expression data with brightfield and fluorescence images to align reads, generate Feature Barcode matrices, and perform secondary analysis including clustering and differential gene expression.
 
 # Additional Services
 
