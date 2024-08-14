@@ -25,14 +25,14 @@ blah:
         
   - title: Services
     children:
+      - title: "Transcriptomics"
+        url: /pages/services/transcriptomics/      
       - title: "Epigenomics"
         url: /pages/services/epigenomics/
       - title: "Genomics"
         url: /pages/services/genomics/
       - title: "Metagenomics"
         url: /pages/services/metagenomics/
-      - title: "Transcriptomics"
-        url: /pages/services/transcriptomics/
       - title: "Functional Analysis"
         url: /pages/services/CCBB_services_functional_analysis/
  
