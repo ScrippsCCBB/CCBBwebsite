@@ -12,10 +12,10 @@ permalink: /pages/about/
 
 ## Scientific Advisory Board:
 
-* Andrew Su, Professor
+* Andrew Su, Professor, Department of Integrative Structural and Computational Biology
 
-* Chunlei Wu, Associate Professor 
+* Chunlei Wu, Associate Professor, Department of Integrative Structural and Computational Biology 
 
-* Nathan Wineinger, Associate Professor
+* Nathan Wineinger, Associate Professor, Department of Integrative Structural and Computational Biology
   
-* Eric Zorrilla, Associate Professor
+* Eric Zorrilla, Associate Professor, Department of Molecular Medicine
