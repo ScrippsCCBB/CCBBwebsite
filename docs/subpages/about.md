@@ -12,10 +12,10 @@ permalink: /pages/about/
 
 ## Scientific Advisory Board:
 
-* Ali Torkamani, Professor
-
 * Andrew Su, Professor
 
 * Chunlei Wu, Associate Professor 
 
 * Nathan Wineinger, Associate Professor
+  
+* Eric Zorrilla, Associate Professor
