@@ -1,3 +1,10 @@
+---
+title: RNASeq Pipeline
+permalink: /pages/tutorials/bulkrnaseqpipeline_usage/
+layout: single
+classes: wide
+---
+
 # Bulk RNA-seq pipeline - Usage
 
 This repository contains scripts used by CCBB for running nfcore RNASEQ(v3.12) Pipeline.  
