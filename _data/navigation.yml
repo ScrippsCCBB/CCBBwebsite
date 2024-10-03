@@ -69,4 +69,6 @@ blah:
     children:
       - title: "bulk RNAseq Pipeline - overview"
         url: /pages/tutorials/rnaseqpipeline/
+      - title: "bulk RNAseq Pipeline - usage"
+        url: /pages/tutorials/bulkrnaseqpipeline_usage/
 
