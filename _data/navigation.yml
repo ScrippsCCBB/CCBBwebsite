@@ -67,6 +67,6 @@ blah:
   
   - title: Methods
     children:
-      - title: "RNAseq Pipeline Tutorial"
+      - title: "bulk RNAseq Pipeline - overview"
         url: /pages/tutorials/rnaseqpipeline/
 
