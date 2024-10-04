@@ -40,5 +40,4 @@ The following genome parameters are configured for use
 | Rat    |       RN0    |
 | C elegans    | CE0    |
 
-`
 path_to_script/2.run_nfcore2.7.2_rnaseq_v3.12_WS.job path_to_samplesheet HU0
