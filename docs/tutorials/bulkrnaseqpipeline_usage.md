@@ -18,9 +18,9 @@ The output is named samplesheet.csv
 path_to_script/1.generate_samplesheet_nfcore_rnaseq_v3.12_WS.job  
 
 We need to pass the full path of the folder which has the fastqs as the input parameter for this script  
-`
+
 path_to_script/1.generate_samplesheet_nfcore_rnaseq_v3.12_WS.job path_to_fastqs
-`
+
 
 
 ### STEP2
