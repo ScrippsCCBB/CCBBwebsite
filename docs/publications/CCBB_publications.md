@@ -6,6 +6,8 @@ permalink: /pages/publications/
 ---
 
 # CCBB Publications 2021 Onwards
+* **Catalyzing computational biology research at an academic institute through an interest network:** Zak J, Newman I, Montiel Garcia DJ, Parisi D, Joy J, Head SR, Ducom JC, Natarajan P, Cui H and Ul-Hasan S. bioRxiv preprint doi: https://doi.org/10.1101/2025.01.05.631403.
+
 * **Shared and Compartment-Specific Processes in Nucleus Pulposus and Annulus Fibrosus During Intervertebral Disc Degeneration:** Swahn H, Mertens J, Olmer M, Myers K, Mondala TS, Natarajan P, Head SR, Alvarez-Garcia O, Lotz MK. Adv Sci (Weinh) 2024 May;11(17):e2309032. Epub 2024 Feb 25.PMID: 38403470; PMCID: PMC11077672; doi: 10.1002/advs.202309032
   
 * **Transcriptomic analyses of joint tissues during osteoarthritis development in a rat model reveal dysregulated mechanotransduction and extracellular matrix pathways** Hu Y, Li K, Swahn H, Ordoukhanian P, Head SR, Natarajan P, Woods AK, Joseph SB, Johnson KA, Lotz MK. Osteoarthritis Cartilage. 2023 Feb;31(2):199-212. doi:10.1016/j.joca.2022.10.003. Epub 2022 Oct 28. PMID: 36354073
