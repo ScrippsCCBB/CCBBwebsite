@@ -22,7 +22,7 @@ blah:
     children:
       - title: "CCBB Service Request"
         url: /pages/Submit_Request/
-      - title: "CCBB RNASeq pipeline"
+      - title: "RNASeq pipeline access"
         url: 
         
   - title: Services
