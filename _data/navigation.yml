@@ -20,8 +20,10 @@ blah:
         
   - title: "Submit Request"
     children:
-      - title: "Submit Request"
+      - title: "CCBB Service Request"
         url: /pages/Submit_Request/
+      - title: "CCBB RNASeq pipeline"
+        url: 
         
   - title: Services
     children:
