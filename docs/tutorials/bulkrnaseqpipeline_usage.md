@@ -10,7 +10,7 @@ Please follow the instructions below to get access to our analysis pipeline and 
 Fill out the [form](https://scrippsccbb.github.io/CCBBwebsite/pages/RNASeq_pipeline_access/) available at  CCBB website.  
 
 ### Step2: 
-As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC](hpc@scripps.edu) (if you do not have one already).
+As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing hpc@scripps.edu (if you do not have one already).
 
 ### Step3:
 Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:\
@@ -49,10 +49,10 @@ Open [Workflow](http://opaat.scripps.edu/workflow-project) on your browser
 The second workflow “CCBB_BULKRNASeq_STEP2_WF” is used to run the RNASeq pipeline. This needs three inputs as defined below.
 * Click on the “Input Data” tab and (a) type in the full path to your folder on Garibaldi with samplesheet.csv, (b) type in the reference genome code for your samples (e.g. HU0 (zero not the letter O) for human, MM0 for mouse, RN0 for rat and CE0 for C.elegans), (c ) type in the full path to where you want the results of the bulk RNASeq analysis to be generated on Garibaldi.
 
-Note. Currently the pipeline will work only for Human, Mouse, Rat and C.elegans. 
-If you have any other custom species please contact (CCBB)[ccbb.at.scripps.edu] 
+Note. Currently the pipeline will work only for Human, Mouse, Rat and C.elegans. \
+If you have any other custom species please contact ccbb.at.scripps.edu
 
-Follow the [details] (https://nf-co.re/rnaseq/3.18.0/docs/output/) to understand the pipeline outcome for your data.
+Follow the [details](https://nf-co.re/rnaseq/3.18.0/docs/output/) to understand the pipeline outcome for your data.
 
 ### Step6: 
 Cleanup
