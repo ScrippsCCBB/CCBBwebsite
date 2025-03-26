@@ -13,14 +13,14 @@ Fill out the [form](https://scrippsccbb.github.io/CCBBwebsite/pages/RNASeq_pipel
 As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC](hpc@scripps.edu) (if you do not have one already).
 
 ### Step3:
-Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:
+Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:\
 Allow us to contact the technical support staff to help you with Workflow set up on your computer. 
 
 ### Step4: 
-On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.fastq.gz)
-If you have lane-level fastqs for each sample, please concatenate them such that you have one fastq file per sample for single-end dataset and two fastqs per sample for paired-end dataset.
-SampleID should be unique for each sample with no special characters (space, #, _ etc.)
-Sample fastqs need to be gzipped with extension .fastq.gz or fq.gz. 
+On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.fastq.gz)\
+If you have lane-level fastqs for each sample, please concatenate them such that you have one fastq file per sample for single-end dataset and two fastqs per sample for paired-end dataset.\
+SampleID should be unique for each sample with no special characters (space, #, _ etc.)\
+Sample fastqs need to be gzipped with extension .fastq.gz or fq.gz. \
 	
 ### Step5: 
 Now you are ready to run the CCBB bulk RNASeq analysis!
