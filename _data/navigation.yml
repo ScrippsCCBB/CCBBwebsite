@@ -61,6 +61,9 @@ blah:
         url: /pages/tutorials/filezilla/
       - title: "AWS Data Dispatch"
         url: /pages/tutorials/aws_data_dispatch/
+      - title: "CCBB BulkRNASeq Pipeline" 
+        url: /pages/tutorials/CCBB_BulkRNASeq_Pipeline_Usage/
+
         
   # - title: Tutorials
   #   children:
