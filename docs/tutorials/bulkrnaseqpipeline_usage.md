@@ -60,3 +60,5 @@ After the successful completion of the RNASeq pipeline, please remove the “wor
 ### DISCLAIMER: 
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research. CCBB reserves the right to continue/discontinue any of its pipelines on Garibaldi.
 
+![CCBB BULKRNASEQ PIPELINE WF](../assets/images/CCBB_BULKRNASEQ_PIPELINE_WF.png)
+
