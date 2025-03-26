@@ -7,10 +7,10 @@ classes: wide
 Please follow the instructions below to get access to our analysis pipeline and run it on your RNAseq data:  
 
 ### Step1: 
-Fill out the [form] (https://scrippsccbb.github.io/CCBBwebsite/pages/RNASeq_pipeline_access/) available at  CCBB website.  
+Fill out the [form](https://scrippsccbb.github.io/CCBBwebsite/pages/RNASeq_pipeline_access/) available at  CCBB website.  
 
 ### Step2: 
-As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC] (hpc@scripps.edu) (if you do not have one already).
+As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC](hpc@scripps.edu) (if you do not have one already).
 
 ### Step3:
 Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:
@@ -27,7 +27,7 @@ Now you are ready to run the CCBB bulk RNASeq analysis!
 
 Follow the instructions below to begin:
 
-Open [Workflow] (http://opaat.scripps.edu/workflow-project) on your browser
+Open [Workflow](http://opaat.scripps.edu/workflow-project) on your browser
 (Refer to the image at the end of this document for details)
 
 Click on “Experiments”
