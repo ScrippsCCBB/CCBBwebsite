@@ -1,7 +1,7 @@
 --- 
 layout: single
 classes: wide
-permalink: /pages/CCBB_pipelines/Bulk_RNAseq/
+permalink: /pages/CCBB_pipelines/bulk_RNAseq/
 title: "Bulk RNAseq"
 
 ---
