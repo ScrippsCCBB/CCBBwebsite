@@ -44,7 +44,7 @@ blah:
         url: /pages/CCBB_pipelines/overview_signup/      
       - title: "Bulk RNAseq / Differential Abundance"
         url: /pages/CCBB_pipelines/Bulk RNAseq_Differential Abundance/
-      - title: "10x single cell gene expression "
+      - title: "10x single cell gene expression"
         url: /pages/CCBB_pipelines/10xscGEX/
  
   - title: Guidelines
