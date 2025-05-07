@@ -42,8 +42,10 @@ blah:
     children:
       - title: "Transcriptomics"
         url: /pages/CCBB_pipelines/overview_signup/      
-      - title: "Bulk RNAseq / Differential Abundance"
-        url: /pages/CCBB_pipelines/Bulk RNAseq_Differential Abundance/
+      - title: "Bulk RNAseq"
+        url: /pages/CCBB_pipelines/Bulk_RNAseq/
+      - title: "Differential Abundance"
+        url: /pages/CCBB_pipelines/Differential_Abundance/
       - title: "10x single cell gene expression"
         url: /pages/CCBB_pipelines/10xscGEX/
  
