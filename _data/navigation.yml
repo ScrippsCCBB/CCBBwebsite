@@ -1,4 +1,4 @@
-main:
+iewmain:
   - title: "Services"
     url: /pages/services_summary/
   # - title: "Tutorials"
@@ -40,12 +40,12 @@ blah:
 
 - title: CCBB Pipelines
     children:
-      - title: "Transcriptomics"
+      - title: "Overview & Signup"
         url: /pages/CCBB_pipelines/overview_signup/      
       - title: "Bulk RNAseq"
-        url: /pages/CCBB_pipelines/Bulk_RNAseq/
+        url: /pages/CCBB_pipelines/bulk_RNAseq/
       - title: "Differential Abundance"
-        url: /pages/CCBB_pipelines/Differential_Abundance/
+        url: /pages/CCBB_pipelines/differential_abundance/
       - title: "10x single cell gene expression"
         url: /pages/CCBB_pipelines/10xscGEX/
  
