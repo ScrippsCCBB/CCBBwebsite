@@ -37,6 +37,15 @@ blah:
         url: /pages/services/metagenomics/
       - title: "Functional Analysis"
         url: /pages/services/CCBB_services_functional_analysis/
+
+- title: CCBB pipelines
+    children:
+      - title: "Transcriptomics"
+        url: /pages/CCBB_pipelines/overview_signup/      
+      - title: "Bulk RNAseq / Differential Abundance"
+        url: /pages/CCBB_pipelines/Bulk RNAseq_Differential Abundance/
+      - title: "10x single cell gene expression "
+        url: /pages/CCBB_pipelines/10xscGEX/
  
   - title: Guidelines
     children:
