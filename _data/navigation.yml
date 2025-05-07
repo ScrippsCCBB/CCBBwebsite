@@ -42,6 +42,8 @@ blah:
   children:
     - title: "Overview"
       url: /pages/CCBB_pipelines/overview_signup/
+    - title: "Bulk RNAseq"
+      url: /pages/CCBB_pipelines/bulk_RNAseq/
 
 #- title: CCBB Pipelines
    # children:
