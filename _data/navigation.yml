@@ -38,7 +38,7 @@ blah:
       - title: "Functional Analysis"
         url: /pages/services/CCBB_services_functional_analysis/
 
-- title: CCBB pipelines
+- title: CCBB Pipelines
     children:
       - title: "Transcriptomics"
         url: /pages/CCBB_pipelines/overview_signup/      
