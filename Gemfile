@@ -21,7 +21,7 @@ gem 'jekyll-toc'
 
 gem "jekyll"
 
-#gem "just-the-docs"        # always download the latest release
+gem "just-the-docs"        # always download the latest release
 
 source "https://rubygems.org"
 
