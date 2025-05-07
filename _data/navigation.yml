@@ -39,9 +39,9 @@ blah:
         url: /pages/services/CCBB_services_functional_analysis/
 
 - title: CCBB Pipelines
-    children:
-      - title: "Overview"
-        url: /pages/CCBB_pipelines/overview_signup/
+  children:
+    - title: "Overview"
+      url: /pages/CCBB_pipelines/overview_signup/
 
 #- title: CCBB Pipelines
    # children:
