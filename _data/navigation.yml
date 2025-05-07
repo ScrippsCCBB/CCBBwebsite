@@ -40,8 +40,8 @@ blah:
 
 - title: CCBB Pipelines
     children:
-      - title: "10x single cell gene expression"
-        url: /pages/CCBB_pipelines/10xscGEX/
+      - title: "Overview & Signup"
+        url: /pages/CCBB_pipelines/overview_signup/
 
 #- title: CCBB Pipelines
    # children:
