@@ -40,7 +40,7 @@ blah:
 
 - title: CCBB Pipelines
     children:
-      - title: "Overview & Signup"
+      - title: "Overview"
         url: /pages/CCBB_pipelines/overview_signup/
 
 #- title: CCBB Pipelines
