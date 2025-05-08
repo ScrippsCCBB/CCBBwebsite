@@ -40,20 +40,14 @@ blah:
 
   - title: CCBB Pipelines
     children:
-      - title: "Transcriptomics"
-        url: /pages/services/transcriptomics/
-
-#- title: CCBB Pipelines
-   # children:
-     # - title: "Overview & Signup"
-       # url: /pages/CCBB_pipelines/overview_signup/      
-     # - title: "Bulk RNAseq"
-      #  url: /pages/CCBB_pipelines/bulk_RNAseq/
-      #- title: "Differential Abundance"
-       # url: /pages/CCBB_pipelines/differential_abundance/
-      #- title: "10x single cell gene expression"
-       # url: /pages/CCBB_pipelines/10xscGEX/
-
+      - title: "Overview & Signup"
+        url: /pages/CCBB_pipelines/overview_signup/    
+      - title: "Bulk RNAseq"
+        url: /pages/CCBB_pipelines/bulk_RNAseq/
+      - title: "Differential Abundance"
+        url: /pages/CCBB_pipelines/differential_abundance/
+      - title: "10x single cell gene expression"
+        url: /pages/CCBB_pipelines/10xscGEX/
  
   - title: Guidelines
     children:
