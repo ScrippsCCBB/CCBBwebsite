@@ -5,8 +5,8 @@ permalink: /pages/CCBB_pipelines/bulk_RNAseq/
 title: "Bulk RNAseq"
 ---
 
-# CCBB Pipelines on Garibaldi - Bulk RNAseq
-Please follow the instructions below to use our analysis pipeline and run it on your RNAseq data:  
+# CCBB Pipelines on Garibaldi - Bulk RNASeq
+Please follow the instructions below to use our analysis pipeline and run it on your RNASeq data:  
 
 ### Step1: 
 On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.fastq.gz)
