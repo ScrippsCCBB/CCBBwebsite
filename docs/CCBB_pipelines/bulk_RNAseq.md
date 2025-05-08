@@ -2,10 +2,10 @@
 layout: single
 classes: wide
 permalink: /pages/CCBB_pipelines/bulk_RNAseq/
-title: "Bulk RNAseq"
+title: ""
 ---
 
-# CCBB Pipelines on Garibaldi - Bulk RNASeq
+# CCBB Pipelines on Garibaldi - <span style="color:red"> Bulk RNASeq </span>
 Please follow the instructions below to use our analysis pipeline and run it on your RNASeq data:  
 
 ### Step1: 
