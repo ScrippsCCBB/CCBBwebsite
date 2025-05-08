@@ -38,12 +38,10 @@ blah:
       - title: "Functional Analysis"
         url: /pages/services/CCBB_services_functional_analysis/
 
-- title: CCBB Pipelines
-  children:
-    - title: "Overview"
-      url: /pages/CCBB_pipelines/overview_signup/
-    - title: "Bulk RNAseq"
-      url: /pages/CCBB_pipelines/bulk_RNAseq/
+  - title: CCBB Pipelines
+    children:
+      - title: "Transcriptomics"
+        url: /pages/services/transcriptomics/
 
 #- title: CCBB Pipelines
    # children:
