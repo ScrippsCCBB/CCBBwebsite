@@ -32,7 +32,7 @@ Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 Consult [CCBB](mailto:ccbb@scripps.edu) for any downstream custom work including generating figures for publication, comprehensive functional analysis (with our licensed product Advaita’s iPathwayGuide), submitting data to public repositories etc. 
 
 ###### Step5: 
-Please review our Authorship Guidelines and consider giving authorship to CCBB personnel contributing to your research work. Include the following in the Acknowledgements section of your manuscript and recognize specific CCBB personnel who helped in your project(s): “The authors acknowledge the support of the Center for Computational Biology and Bioinformatics (CCBB) at Scripps Research”. 
+Please review our Authorship Guidelines and consider giving authorship to CCBB personnel contributing to your research work. Include the following in the Acknowledgements section of your manuscript and recognize specific CCBB personnel who helped in your project(s): “The authors acknowledge the support of the Center for Computational Biology and Bioinformatics (CCBB) at Scripps Research”.\
 <span style="color:red"> Co-authorship and acknowledgment demonstrate the utilization of our Bioinformatics Core services and is an indication of its value to your research. </span>
 
 ### <span style="color:maroon"> DISCLAIMER </span>
