@@ -13,7 +13,7 @@ title: "CCBB Pipelines on Garibaldi"
 Please follow the instructions and get access to our analysis pipelines:
 
 ###### Step1: 
-As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing hpc@scripps.edu (if you do not have one already).
+As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC](mailto:hpc@scripps.edu) (if you do not have one already).
 
 ###### Step2: 
 Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:
@@ -21,15 +21,15 @@ Sign-up for pipelines(s) of your interest in Step3 and allow us to contact the t
 
 ###### Step3: 
 Pick the pipeline you like to use and sign-up (just once per pipeline) at CCBB website.
-Email ccbb.at.scripps.edu to find out if you have signed up already!
+Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
-### CCBB Pipelines on Garibaldi: 
+#### CCBB Pipelines on Garibaldi: 
 - Bulk RNAseq analysis (user guide)
 - Differential Abundance analysis (prerequisite: run bulk RNAseq analysis)
 - 10x single cell gene expression (standard) analysis (user guide) (Under development)
 
 ###### Step4: 
-Consult CCBB for any downstream custom work including generating figures for publication, comprehensive functional analysis (with our licensed product Advaita’s iPathwayGuide), submitting data to public repositories etc. 
+Consult [CCBB](mailto:ccbb@scripps.edu) for any downstream custom work including generating figures for publication, comprehensive functional analysis (with our licensed product Advaita’s iPathwayGuide), submitting data to public repositories etc. 
 
 ###### Step5: 
 Please review our Authorship Guidelines and consider giving authorship to CCBB personnel contributing to your research work. Include the following in the Acknowledgements section of your manuscript and recognize specific CCBB personnel who helped in your project(s): “The authors acknowledge the support of the Center for Computational Biology and Bioinformatics (CCBB) at Scripps Research”. 
