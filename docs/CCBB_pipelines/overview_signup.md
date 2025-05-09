@@ -20,7 +20,7 @@ Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:
 Sign-up for pipelines(s) of your interest in Step3 and allow us to contact the technical support staff to help you with Workflow set up on your computer. (Workflow set-up is done just once)
 
 ###### Step3: 
-Pick the pipeline you like to use and [sign-up](https://www.jotform.com/form/250426140772148) (just once per pipeline) at CCBB website.
+Pick the pipeline you like to use and [sign-up](https://www.jotform.com/form/250426140772148) (just once per pipeline) at CCBB website.  
 Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
 #### CCBB Pipelines on Garibaldi: 
