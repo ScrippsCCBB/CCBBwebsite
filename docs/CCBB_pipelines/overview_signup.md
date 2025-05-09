@@ -33,7 +33,7 @@ Consult CCBB for any downstream custom work including generating figures for pub
 
 ###### Step5: 
 Please review our Authorship Guidelines and consider giving authorship to CCBB personnel contributing to your research work. Include the following in the Acknowledgements section of your manuscript and recognize specific CCBB personnel who helped in your project(s): “The authors acknowledge the support of the Center for Computational Biology and Bioinformatics (CCBB) at Scripps Research”. 
-Co-authorship and acknowledgment demonstrate the utilization of our Bioinformatics Core services and is an indication of its value to your research. 
+<span style="color:red"> Co-authorship and acknowledgment demonstrate the utilization of our Bioinformatics Core services and is an indication of its value to your research. </span>
 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared Linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research. CCBB reserves the right to continue/discontinue any of its pipelines on Garibaldi.
