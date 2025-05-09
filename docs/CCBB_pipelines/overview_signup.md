@@ -24,7 +24,7 @@ Pick the pipeline you like to use and [sign-up](https://www.jotform.com/form/250
 Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
 #### CCBB Pipelines on Garibaldi 
-- Bulk RNAseq analysis (user guide)
+- Bulk RNAseq analysis [user guide](../CCBB_pipelines/bulk_RNAseq.md)
 - Differential Abundance analysis (prerequisite: run bulk RNAseq analysis)
 - 10x single cell gene expression (standard) analysis (user guide) (Under development)
 
