@@ -38,7 +38,7 @@ If you plan on receiving raw data on a hard drive, deposit an external hard driv
 Consult our services page and click the relevant service type to get a quick glance at the timelines/costs involved (in terms of the number of hours for CCBB effort) for completing your requests. 
 
 ## STEP 8 
-Follow the *Recommended Guidelines for Authorship on Manuscripts*
+Follow the [recommended guidelines for authorship on manuscripts](../subpages/CCBB_guidelines.md)
 
 ## STEP 9 
 Please give us your feedback to better serve your sequencing needs!
