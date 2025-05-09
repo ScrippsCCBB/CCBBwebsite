@@ -5,7 +5,6 @@ permalink: /pages/CCBB_pipelines/overview_signup/
 title: "CCBB Pipelines on Garibaldi"
 ---
 
-!(../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png)  
 #  Overview	and Signup
 ## <span style="color:maroon"> CCBB’s Bioinformatic framework for Scripps Research community! </span>
 
