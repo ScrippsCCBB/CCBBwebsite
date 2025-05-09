@@ -28,7 +28,7 @@ Open [Workflow](http://opaat.scripps.edu/workflow-project) on your browser
 * Click on  “CCBB_BULKRNASeq_STEP1_WF”
 * Choose Garibaldi from the dropdown menu for “Execution profile:” (top of the page)
 
-The first workflow “CCBB_BULKRNASeq_STEP1_WF” is used to create the samplesheet which is needed to run the RNASeq pipeline. This needs two inputs as defined below.\
+The first workflow “CCBB_BULKRNASeq_STEP1_WF” is used to create the samplesheet which is needed to run the RNASeq pipeline. This needs two inputs as defined below. 
 * Click on the “Input Data” tab and (a) type in the full path to your folder on Garibaldi with sample fastqs (Step4 above), (b) type in the full path to where you want the samplesheet.csv to be generated (this can be same path as for the fastqs), then click the button ![CCBB BULKRNASEQ PIPELINE WF_RUN](../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png) to run “CCBB_BULKRNASeq_STEP1_WF”
 
 Upon completion, check to see the samplesheet.csv file on Garibaldi at the location you specified.
