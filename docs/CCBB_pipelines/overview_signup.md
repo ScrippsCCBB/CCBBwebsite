@@ -25,8 +25,8 @@ Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
 #### CCBB Pipelines on Garibaldi 
 - Bulk RNAseq analysis [user guide](../CCBB_pipelines/bulk_RNAseq.md)
-- Differential Abundance analysis (prerequisite: run bulk RNAseq analysis)
-- 10x single cell gene expression (standard) analysis (user guide) (Under development)
+- Differential Abundance analysis [user guide](../CCBB_pipelines/differential_abundance.md)(prerequisite: run bulk RNAseq analysis)
+- 10x single cell gene expression (standard) analysis [user guide](../CCBB_pipelines/10xscGEX/)
 
 ###### Step4 
 Consult [CCBB](mailto:ccbb@scripps.edu) for any downstream custom work including generating figures for publication, comprehensive functional analysis (with our licensed product Advaita’s iPathwayGuide), submitting data to public repositories etc. 
