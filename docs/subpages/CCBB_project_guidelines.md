@@ -38,7 +38,7 @@ If you plan on receiving raw data on a hard drive, deposit an external hard driv
 
 ## STEP 6: 
 
-(Non-Scripps) External customers requesting fastqs and/or results of analysis (any processed data) must create an AWS S3 bucket with specifications provided [AWS Instructions](aws_data_dispatch.md) and share the requested details with ccbb.at.scripps.edu at the time of sample submission.
+(Non-Scripps) External customers requesting fastqs and/or results of analysis (any processed data) must create an AWS S3 bucket with specifications provided [AWS Instructions](../tutorials/aws_data_dispatch.md) and share the requested details with ccbb.at.scripps.edu at the time of sample submission.
 
 ## STEP 7: 
 
