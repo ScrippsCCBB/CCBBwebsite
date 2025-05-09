@@ -29,7 +29,9 @@ Open [Workflow](http://opaat.scripps.edu/workflow-project) on your browser
 * Choose Garibaldi from the dropdown menu for “Execution profile:” (top of the page)
 
 The first workflow “CCBB_BULKRNASeq_STEP1_WF” is used to create the samplesheet which is needed to run the RNASeq pipeline. This needs two inputs as defined below. 
-* Click on the “Input Data” tab and (a) type in the full path to your folder on Garibaldi with sample fastqs (Step4 above), (b) type in the full path to where you want the samplesheet.csv to be generated (this can be same path as for the fastqs), then click the button ![CCBB BULKRNASEQ PIPELINE WF_RUN](../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png) to run “CCBB_BULKRNASeq_STEP1_WF”
+* Click on the “Input Data” tab and
+   * (a) type in the full path to your folder on Garibaldi with sample fastqs (Step4 above),
+   * (b) type in the full path to where you want the samplesheet.csv to be generated (this can be same path as for the fastqs), then click the button ![CCBB BULKRNASEQ PIPELINE WF_RUN](../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png) to run “CCBB_BULKRNASeq_STEP1_WF”
 
 Upon completion, check to see the samplesheet.csv file on Garibaldi at the location you specified.
 
@@ -40,14 +42,16 @@ Open [Workflow](http://opaat.scripps.edu/workflow-project) on your browser
 * Choose Garibaldi from the dropdown menu for “Execution profile:” (top of the page)
 
 The second workflow “CCBB_BULKRNASeq_STEP2_WF” is used to run the RNASeq pipeline. This needs three inputs as defined below.
-* Click on the “Input Data” tab and (a) type in the full path to your folder on Garibaldi with samplesheet.csv, (b) type in the reference genome code for your samples (e.g. HU0 (zero not the letter O) for human, MM0 for mouse, RN0 for rat and CE0 for C.elegans), (c ) type in the full path to where you want the results of the bulk RNASeq analysis to be generated on Garibaldi.
+* Click on the “Input Data” tab and
+  * (a) type in the full path to your folder on Garibaldi with samplesheet.csv,
+  * (b) type in the reference genome code for your samples (e.g. HU0 (zero not the letter O) for human, MM0 for mouse, RN0 for rat and CE0 for C.elegans),
+  * (c) type in the full path to where you want the results of the bulk RNASeq analysis to be generated on Garibaldi.
 
 #### IMPORTANT NOTE ON GENOMES:
 Currently the pipeline will work only for Human, Mouse, Rat and C.elegans. \
 If you have any other custom species please contact [CCBB](mailto:ccbb@scripps.edu)
 
 Follow the [details](https://nf-co.re/rnaseq/3.18.0/docs/output/) to understand the pipeline outcome for your data.
-
 
 ### Step3: 
 Cleanup
