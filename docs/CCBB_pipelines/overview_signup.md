@@ -17,6 +17,8 @@ As you will access our pipelines on Garibaldi, please get your account on Gariba
 
 ###### Step2
 Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:
+Please follow the [instructions](https://github.com/ScrippsCCBB/CCBBwebsite/blob/main/WorkFlow_User_Setup_Guide_May2025.pdf) to setup workflow on your computer.
+Please note that workflow needs to be set-up only once.
 Sign-up for pipelines(s) of your interest in Step3 and allow us to contact the technical support staff to help you with Workflow set up on your computer. (Workflow set-up is done just once)
 
 ###### Step3 
