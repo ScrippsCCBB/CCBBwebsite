@@ -15,7 +15,5 @@ permalink: /pages/about/
 * Andrew Su, Professor, Department of Integrative Structural and Computational Biology
 
 * Chunlei Wu, Associate Professor, Department of Integrative Structural and Computational Biology 
-
-* Nathan Wineinger, Associate Professor, Department of Integrative Structural and Computational Biology
   
 * Eric Zorrilla, Associate Professor, Department of Molecular Medicine
