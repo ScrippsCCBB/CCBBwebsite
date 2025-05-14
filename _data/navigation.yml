@@ -22,7 +22,7 @@ blah:
     children:
       - title: "CCBB Service Request"
         url: /pages/Submit_Request/
-      - title: "CCBB pipeline access"
+      - title: "CCBB Pipeline Access"
         url: /pages/CCBB_pipeline_access/
         
   - title: Services
