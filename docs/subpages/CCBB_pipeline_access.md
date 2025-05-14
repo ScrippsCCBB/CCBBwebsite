@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-permalink: /pages/RNASeq_pipeline_access/
+permalink: /pages/CCBB_pipeline_access/
 title: ""
 date: "2025-03-05"  
 
