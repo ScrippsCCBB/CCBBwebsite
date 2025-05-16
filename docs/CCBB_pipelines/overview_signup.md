@@ -2,10 +2,8 @@
 layout: single
 classes: wide
 permalink: /pages/CCBB_pipelines/overview_signup/
-title: "CCBB Pipelines on Garibaldi"
+title: ""
 ---
-
-#  Overview	and Signup
 ## <span style="color:maroon"> CCBB’s Bioinformatic framework for Scripps Research community! </span>
 ![CCBB IMAGE](../assets/images/ccbb_website_logo.jpeg)  
 #### CCBB is empowering you with tools for self-directed data analysis
