@@ -2,8 +2,7 @@
 layout: single
 classes: wide
 permalink: /pages/CCBB_pipelines/differential_abundance/
-title:
-
+title:""
 ---
 
 # <span style="color:maroon"> Differential Abundance </span>
