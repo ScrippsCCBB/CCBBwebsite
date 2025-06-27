@@ -51,10 +51,10 @@ Follow the [details at](https://nf-co.re/differentialabundance/1.5.0/docs/output
 Please follow the instructions that are sent via email upon pipeline completion:
 
 * Contact [CCBB](mailto:ccbb@scripps.edu) for any questions regarding the pipeline, results of analysis, further assistance with downstream analysis (like pathway analysis, custom differential expression analysis, specific plots for publication etc.).
-Please take a few minutes to give us your [feedback](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform) 
+Please take a few minutes to give us your [feedback](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform).
 
 ### NOTE
-If you need custom work to be done (e.g. specific model matrix to be used for a comparison to account for known batch effects) request for a meeting with CCBB. The service hours will be determined by CCBB, and will be charged at $125 per hour of effort.	
+If you need custom work to be done (e.g. specific model matrix to be used for a comparison to account for known batch effects) request for a meeting with CCBB. The service hours will be determined by CCBB.	
 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research. CCBB reserves the right to continue/discontinue any of its pipelines on Garibaldi.
