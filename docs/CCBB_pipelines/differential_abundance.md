@@ -31,7 +31,8 @@ Files “salmon.merged.gene_counts_length_scaled.tsv” and “salmon.merged.gen
 Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs), group to which the sample belongs (a single word that describes the group), replicate number of the sample (1, 2, 3 …)
 
 ### Step2: 
-Now you are ready to run the CCBB differentialabundance pipeline!\
+Now you are ready to run the CCBB differentialabundance pipeline! 
+
 Follow the instructions below to begin:
 
 Go to the [Workflow site](http://opaat.scripps.edu/workflow-project) on your browser:
