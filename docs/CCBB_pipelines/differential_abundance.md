@@ -51,7 +51,8 @@ Upon completion, check to see the sub-folder “DE_results” on Garibaldi at th
 
 Follow the [details](https://nf-co.re/differentialabundance/1.5.0/docs/output/) to understand the pipeline outcome for your data.
 
-### Step3: Post analysis follow-up for users.
+### Step3: 
+Post analysis follow-up for users. 
 Please follow the instructions that are sent via email upon pipeline completion:
 
 * Contact [CCBB](mailto:ccbb@scripps.edu) for any questions regarding the pipeline, results of analysis, further assistance with downstream analysis (like pathway analysis, custom differential expression analysis, specific plots for publication etc.).\
