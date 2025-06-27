@@ -1,0 +1,19 @@
+"example1: single-end data with two conditions ""CONTROL"", ""CASE"" (which can take value pairs like ""WT"", ""KO"" or ""Time0"", ""Time1"", etc. depending on the comparison you need)",,,
+id,variable,reference,target
+TREATED-vs-CONTROL,condition,CONTROL,TREATED
+,,,
+,,,
+"example2: paired-end data with two conditions ""CONTROL"", ""CASE"" (which can take value pairs like ""WT"", ""KO"" or ""Time0"", ""Time1"", etc. depending on the comparison you need)",,,
+id,variable,reference,target
+KO-vs-WT,condition,WT,KO
+,,,
+,,,
+"example3: paired-end data with two conditions ""CONTROL"", ""CASE"" (which can take value pairs like ""WT"", ""KO"" or ""Time0"", ""Time1"", etc. depending on the comparison you need)",,,
+id,variable,reference,target
+DRUG1-vs-CONTROL,condition,CONTROL,DRUG1
+DRUG2-vs-CONTROL,condition,CONTROL,DRUG2
+DRUG2-vs-DRUG1,condition,DRUG1,DRUG2
+,,,
+,,,
+,,,
+"NOTE: ""target"" group will be compared to ""reference"" group in the differential expression analysis. So choose the direction of comparison accordingly.",,,

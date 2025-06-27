@@ -1,0 +1,37 @@
+"example1: single-end data with two conditions ""CONTROL"", ""CASE"" (which can take value pairs like ""WT"", ""KO"" or ""Time0"", ""Time1"", etc. depending on the comparison you need)",,,,
+sample,fastq_1,fastq_2,condition,replicate
+01idSAMPLE01_S2,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_R1_001.fastq.gz,,CONTROL,1
+02idSAMPLE02_S3,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/02idSAMPLE02_S3_R1_001.fastq.gz,,CONTROL,2
+03idSAMPLE03_S4,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/03idSAMPLE03_S4_R1_001.fastq.gz,,CONTROL,3
+04idSAMPLE04_S5,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/04idSAMPLE01_S5_R1_001.fastq.gz,,TREATED,1
+05idSAMPLE05_S6,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/05idSAMPLE05_S6_R1_001.fastq.gz,,TREATED,2
+06idSAMPLE06_S7,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE06_S7_R1_001.fastq.gz,,TREATED,3
+,,,,
+,,,,
+"example2: paired-end data with two conditions ""CONTROL"", ""CASE"" (which can take value pairs like ""WT"", ""KO"" or ""Time0"", ""Time1"", etc. depending on the comparison you need)",,,,
+sample,fastq_1,fastq_2,condition,replicate
+01idSAMPLE01_S2,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_R2_001.fastq.gz,WT,1
+02idSAMPLE02_S3,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/02idSAMPLE02_S3_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/02idSAMPLE02_S3_R2_001.fastq.gz,WT,2
+03idSAMPLE03_S4,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/03idSAMPLE03_S4_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/03idSAMPLE03_S4_R2_001.fastq.gz,WT,3
+04idSAMPLE04_S5,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/04idSAMPLE01_S5_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/04idSAMPLE01_S5_R2_001.fastq.gz,KO,1
+05idSAMPLE05_S6,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/05idSAMPLE05_S6_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/05idSAMPLE05_S6_R2_001.fastq.gz,KO,2
+06idSAMPLE06_S7,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE06_S7_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE06_S7_R2_001.fastq.gz,KO,3
+,,,,
+,,,,
+,,,,
+"example3: paired-end data with two conditions ""CONTROL"", ""CASE"" (which can take value pairs like ""WT"", ""KO"" or ""Time0"", ""Time1"", etc. depending on the comparison you need)",,,,
+sample,fastq_1,fastq_2,condition,replicate
+01idSAMPLE01_S10,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S10_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_R2_001.fastq.gz,CONTROL,1
+02idSAMPLE02_S11,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/02idSAMPLE02_S11_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/02idSAMPLE02_S3_R2_001.fastq.gz,CONTROL,2
+03idSAMPLE03_S12,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/03idSAMPLE03_S12_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/03idSAMPLE03_S4_R2_001.fastq.gz,CONTROL,3
+04idSAMPLE04_S13,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/04idSAMPLE01_S13_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/04idSAMPLE01_S5_R2_001.fastq.gz,DRUG1,1
+05idSAMPLE05_S14,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/05idSAMPLE05_S14_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/05idSAMPLE05_S6_R2_001.fastq.gz,DRUG1,2
+06idSAMPLE06_S15,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE06_S15_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE06_S7_R2_001.fastq.gz,DRUG1,3
+06idSAMPLE07_S20,/ffull-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE20_S20_R1_001.fastq.gz,/ffull-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE20_S20_R2_001.fastq.gz,DRUG2,1
+06idSAMPLE08_S21,/ffull-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE21_S21_R1_001.fastq.gz,/ffull-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE21_S21_R2_001.fastq.gz,DRUG2,2
+06idSAMPLE09_S22,/ffull-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE22_S22_R1_001.fastq.gz,/ffull-path-to-bulk-RNAseq-folder-on-Garibaldi/06idSAMPLE22_S22_R2_001.fastq.gz,DRUG2,3
+,,,,
+,,,,
+,,,,
+NOTE: Sample name should include the Serial number (from fastq file name),,,,
+"For example, 01idSAMPLE01_S10 and not 01idSAMPLE01",,,,
