@@ -41,7 +41,7 @@ Go to the [Workflow site](http://opaat.scripps.edu/workflow-project) on your bro
 The workflow “CCBB_DIFFERENTIALABUNDANCE_WF” needs the inputs as defined in **Step2** above.
 Click on the “Input Data” tab. In the text box, type in the full path to your folder on Garibaldi where you
 * performed bulk RNA-seq analysis using our workflow,
-* generated the files for your dataset using instructions in **Step2**): “DE_samplesheet.csv” and “contrast.csv”, then click the run button (on top right corner of the page) to run “CCBB_DIFFERENTIALABUNDANCE_WF”
+* generated the files for your dataset using instructions in **Step2**): “DE_samplesheet.csv” and “contrast.csv”, then click the run button ![CCBB BULKRNASEQ PIPELINE WF_RUN](../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png) to run “CCBB_DIFFERENTIALABUNDANCE_WF”.
 
 Upon completion, check to see the sub-folder “DE_results” on Garibaldi at the location you specified. (example: /gpfs/home/johndoe/…/”bulk RNA-seq analysis”/DE_results)
 
@@ -59,5 +59,6 @@ If you need custom work to be done (e.g. specific model matrix to be used for a 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research. CCBB reserves the right to continue/discontinue any of its pipelines on Garibaldi.
 
+![CCBB DIFFERENTIAL_ABUNDANCE PIPELINE WF](../assets/images/CCBB_DIFFERENTIAL_ABUNDANCE_PIPELINE_WF.png)
 
 
