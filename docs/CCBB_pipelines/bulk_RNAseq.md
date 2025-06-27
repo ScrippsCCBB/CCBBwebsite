@@ -6,6 +6,8 @@ title: ""
 ---
 
 # <span style="color:maroon"> Bulk RNASeq </span>
+This nf-core pipeline does RNA sequencing analysis using STAR, Salmon with gene/isoform counts and extensive quality control.
+
 Please follow the instructions below to use our analysis pipeline and run it on your RNASeq data:  
 
 ### Step1: 
