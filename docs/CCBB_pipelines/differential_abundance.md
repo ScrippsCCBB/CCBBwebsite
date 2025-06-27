@@ -45,12 +45,18 @@ Click on the “Input Data” tab. In the text box, type in the full path to you
 
 Upon completion, check to see the sub-folder “DE_results” on Garibaldi at the location you specified. (example: /gpfs/home/johndoe/…/”bulk RNA-seq analysis”/DE_results)
 
-Follow the details at https://nf-co.re/differentialabundance/1.5.0/docs/output/ to understand the pipeline outcome for your data.
+Follow the [details at](https://nf-co.re/differentialabundance/1.5.0/docs/output/) to understand the pipeline outcome for your data.
 
-### NOTE:
-If you need custom work to be done (e.g. specific model matrix to be used for a comparison to account for known batch effects) request for a meeting with CCBB. The service hours will be determined by CCBB and will be charged at $125 per hour of effort.	
+### Step3: Post analysis follow-up for users.
+Please follow the instructions that are sent via email upon pipeline completion:
 
-### DISCLAIMER: 
+* Contact [CCBB](mailto:ccbb@scripps.edu) for any questions regarding the pipeline, results of analysis, further assistance with downstream analysis (like pathway analysis, custom differential expression analysis, specific plots for publication etc.).
+Please take a few minutes to give us your [feedback](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform) 
+
+### NOTE
+If you need custom work to be done (e.g. specific model matrix to be used for a comparison to account for known batch effects) request for a meeting with CCBB. The service hours will be determined by CCBB, and will be charged at $125 per hour of effort.	
+
+### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research. CCBB reserves the right to continue/discontinue any of its pipelines on Garibaldi.
 
 
