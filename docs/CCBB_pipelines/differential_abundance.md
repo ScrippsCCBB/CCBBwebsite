@@ -5,6 +5,7 @@ permalink: /pages/CCBB_pipelines/differential_abundance/
 title:""
 ---
 
+
 # <span style="color:maroon"> Differential Abundance </span>
 This nf-core pipeline does differential abundance analysis for feature/ observation matrices from platforms such as RNA-seq.
 
