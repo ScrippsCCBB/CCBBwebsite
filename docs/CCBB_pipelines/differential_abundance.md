@@ -16,9 +16,9 @@ Please follow the instructions below to use our analysis pipeline and run it on 
 CCBB assumes that you have 
 * an account on Garibaldi,
 * set up [Workflow](http://opaat.scripps.edu/) on your computer,
-* completed running our RNAseq pipeline following the usage instructions at  CCBB bulk RNAseq analysis pipeline.  
+* completed running our RNAseq pipeline following the usage instructions at [CCBB bulk RNAseq analysis pipeline](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipelines/bulk_RNAseq/).  
 
-The outcome for your RNAseq data from [CCBB bulk RNAseq analysis pipeline](https://scrippsccbb.github.io/CCBBwebsite/pages/tutorials/CCBB_BulkRNASeq_Pipeline_Usage/) is required for running the  [CCBB Differential Abundance analysis pipeline](https://scrippsccbb.github.io/CCBBwebsite/pages/tutorials/CCBB_DifferentialAbundanceAnalysis_Pipeline_Usage/).
+The outcome for your RNAseq data from [CCBB bulk RNAseq analysis pipeline](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipelines/bulk_RNAseq/) is required for running the [CCBB Differential Abundance analysis pipeline](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipelines/differential_abundance/).
 
 Please follow the instructions below to get access to our analysis pipeline.
 
@@ -31,7 +31,7 @@ Files “salmon.merged.gene_counts_length_scaled.tsv” and “salmon.merged.gen
 Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs), group to which the sample belongs (a single word that describes the group), replicate number of the sample (1, 2, 3 …)
 
 ### Step2: 
-Now you are ready to run the CCBB differentialabundance pipeline!
+Now you are ready to run the CCBB differentialabundance pipeline! 
 Follow the instructions below to begin:
 
 Go to the [Workflow site](http://opaat.scripps.edu/workflow-project) on your browser:
@@ -41,10 +41,10 @@ Go to the [Workflow site](http://opaat.scripps.edu/workflow-project) on your bro
 * Click on  “CCBB_DIFFERENTIALABUNDANCE_WF”
 * Choose “Garibaldi” from the dropdown menu for “Execution profile:” (top of the page)
 
-The workflow “CCBB_DIFFERENTIALABUNDANCE_WF” needs three inputs as defined in below. \
+The workflow “CCBB_DIFFERENTIALABUNDANCE_WF” needs three inputs as defined in below. 
 *  Click on the “Input Data” tab. In the text box, 
    * (a) type in the full path to your folder on Garibaldi where you performed bulk RNA-seq analysis using our workflow,
-   * (b) type in the full path to your folder on Garibaldi where you generated the files for your dataset using instructions in **Step1**): “DE_samplesheet.csv” and “contrast.csv”.
+   * (b) type in the full path to your folder on Garibaldi where you generated the files for your dataset using instructions in **Step1**: “DE_samplesheet.csv” and “contrast.csv”.
    * (c) type in the full path to where you want the results of the differentialabundance analysis to be generated on Garibaldi , then click the run button ![CCBB BULKRNASEQ PIPELINE WF_RUN](../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png) to run “CCBB_DIFFERENTIALABUNDANCE_WF”.
 
 Upon completion, check to see the sub-folder “DE_results” on Garibaldi at the location you specified. (example: /gpfs/home/johndoe/…/”bulk RNA-seq analysis”/DE_results)
