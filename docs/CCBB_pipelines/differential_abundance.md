@@ -47,7 +47,7 @@ The workflow “CCBB_DIFFERENTIALABUNDANCE_WF” needs three inputs as defined i
    * (b) type in the full path to your folder on Garibaldi where you generated the files for your dataset using instructions in **Step1**: “DE_samplesheet.csv” and “contrast.csv”.
    * (c) type in the full path to where you want the results of the differentialabundance analysis to be generated on Garibaldi , then click the run button ![CCBB BULKRNASEQ PIPELINE WF_RUN](../assets/images/CCBB_BULKRNASEQ_WF_RUN_BUTTON.png) to run “CCBB_DIFFERENTIALABUNDANCE_WF”.
 
-Upon completion, check to see the sub-folder “DE_results” on Garibaldi at the location you specified. (example: /gpfs/home/johndoe/…/”bulk RNA-seq analysis”/DE_results)
+Upon completion, check to see the sub-folder “DE_results” on Garibaldi at the location you specified. (example: /gpfs/home/johndoe/…/differential_abundance_analysis/DE_results)
 
 Follow the [details](https://nf-co.re/differentialabundance/1.5.0/docs/output/) to understand the pipeline outcome for your data.
 
