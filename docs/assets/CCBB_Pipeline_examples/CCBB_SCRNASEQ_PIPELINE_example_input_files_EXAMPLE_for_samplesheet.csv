@@ -1,0 +1,17 @@
+sample,fastq_1,fastq_2
+01idSAMPLE01_S2,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_L001_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_L001_R2_001.fastq.gz
+01idSAMPLE01_S2,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_L002_R1_001.fastq.gz,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/01idSAMPLE01_S2_L002_R2_001.fastq.gz
+02idSAMPLE02_S3,/full-path-to-bulk-RNAseq-folder-on-Garibaldi/02idSAMPLE02_S3_R1_001.fastq.gz,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
