@@ -13,9 +13,27 @@ Please follow the instructions below to use our analysis pipeline and run it on 
 ### Step1: 
 On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.fastq.gz)
 - If you have lane-level fastqs for each sample, please concatenate them such that you have one fastq file per sample for single-end dataset and two fastqs per sample for paired-end dataset.
-- SampleID should be unique for each sample with no special characters (space, #, _ etc.)
 - Sample fastqs need to be gzipped with extension .fastq.gz or fq.gz.
-	
+  
+#### Sample Naming Conventions
+Please follow the sample naming conventions listed to avoid errors.
+The recommended pattern for fastq names:
+
+For single-end reads:
+SampleName_SampleNumber_R1_001.fastq.gz 
+
+For paired-end reads:
+SampleName_SampleNumber_R1_001.fastq.gz and SampleName_SampleNumber_R2_001.fastq.gz
+
+Single-end examples:
+sample1_S1_R1_001.fastq.gz, sample2_S2_R1_001.fastq.gz
+
+Paired-end examples:
+sample1_S1_R1_001.fastq.gz and sample1_S1_R2_001.fastq.gz, sample2_S2_R1_001.fastq.gz and sample2_S2_R2_001.fastq.gz
+
+- SampleName should be a single word and unique for each sample with no special characters (space, #, _ etc.)
+- SampleNumber should be “S” followed by a number - unique for each sample with no special characters (space, #, _ etc.)
+
 ### Step2: 
 Now you are ready to run the CCBB bulk RNASeq analysis!
 
