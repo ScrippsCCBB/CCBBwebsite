@@ -23,7 +23,7 @@ For single-end reads:
 <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz 
 
 For paired-end reads:
-SampleName_SampleNumber_R1_001.fastq.gz and SampleName_SampleNumber_R2_001.fastq.gz
+<span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz and SampleName_SampleNumber_R2_001.fastq.gz
 
 Single-end examples:
 sample1_S1_R1_001.fastq.gz, sample2_S2_R1_001.fastq.gz
@@ -31,8 +31,8 @@ sample1_S1_R1_001.fastq.gz, sample2_S2_R1_001.fastq.gz
 Paired-end examples:
 sample1_S1_R1_001.fastq.gz and sample1_S1_R2_001.fastq.gz, sample2_S2_R1_001.fastq.gz and sample2_S2_R2_001.fastq.gz
 
-- SampleName should be a single word and unique for each sample with no special characters (space, #, _ etc.)
-- SampleNumber should be “S” followed by a number - unique for each sample with no special characters (space, #, _ etc.)
+- <span style="color: red;">SampleName</span> should be a single word and unique for each sample with no special characters (space, #, _ etc.)
+- <span style="color: blue;">SampleNumber</span> should be “S” followed by a number - unique for each sample with no special characters (space, #, _ etc.)
 
 ### Step2: 
 Now you are ready to run the CCBB bulk RNASeq analysis!
