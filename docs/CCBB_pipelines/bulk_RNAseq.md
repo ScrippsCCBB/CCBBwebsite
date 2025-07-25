@@ -16,11 +16,11 @@ On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.f
 - Sample fastqs need to be gzipped with extension .fastq.gz or fq.gz.
   
 #### Sample Naming Conventions
-Please follow the sample naming conventions listed to avoid errors.
+Please follow the sample naming conventions listed to avoid errors. 
 The recommended pattern for fastq names:
 
 For single-end reads:
-SampleName_SampleNumber_R1_001.fastq.gz 
+<span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz 
 
 For paired-end reads:
 SampleName_SampleNumber_R1_001.fastq.gz and SampleName_SampleNumber_R2_001.fastq.gz
