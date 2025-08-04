@@ -83,6 +83,9 @@ Please follow the instructions that are sent via email upon pipeline completion:
   expression analysis, specific plots for publication etc.) and your feedback on our pipeline !
 * Please take a few minutes to give us your [feedback](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform) 
 
+#### NOTE: 
+* The job completion time depends on various factors such as number of samples, depth of the samples etc.
+* The job is dependent on getting a node on garibaldi. Depending on the cluster capacity there may be a wait time to obtain the node. 
 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research.\
