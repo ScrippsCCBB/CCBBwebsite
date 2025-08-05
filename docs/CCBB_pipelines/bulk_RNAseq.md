@@ -24,12 +24,12 @@ For single-end reads:\
 
 For paired-end reads:\
 <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz and  
-<span style="color: red;">SampleName</span> _<span style="color: blue;">SampleNumber</span>_R2_001.fastq.gz
+<span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R2_001.fastq.gz
 
-Single-end examples:
+Single-end examples:\
 sample1_S1_R1_001.fastq.gz, sample2_S2_R1_001.fastq.gz
 
-Paired-end examples:
+Paired-end examples:\
 sample1_S1_R1_001.fastq.gz and sample1_S1_R2_001.fastq.gz, sample2_S2_R1_001.fastq.gz and sample2_S2_R2_001.fastq.gz
 
 - <span style="color: red;">SampleName</span> should be a single word and unique for each sample with no special characters (space, #, _ etc.)
