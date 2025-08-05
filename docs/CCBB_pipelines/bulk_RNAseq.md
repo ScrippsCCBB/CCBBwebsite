@@ -19,10 +19,10 @@ On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.f
 Please follow the sample naming conventions listed to avoid errors. 
 The recommended pattern for fastq names:
 
-For single-end reads: 
+For single-end reads:\ 
 <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz 
 
-For paired-end reads: 
+For paired-end reads:\
 <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz and  
 <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R2_001.fastq.gz
 
