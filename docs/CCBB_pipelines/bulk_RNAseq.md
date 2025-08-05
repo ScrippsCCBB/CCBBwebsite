@@ -23,7 +23,7 @@ For single-end reads:\
 <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz 
 
 For paired-end reads:\
-<span style="color: red;">SampleName</span> _<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz and  
+<span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_R1_001.fastq.gz and  
 <span style="color: red;">SampleName</span> _<span style="color: blue;">SampleNumber</span>_R2_001.fastq.gz
 
 Single-end examples:
