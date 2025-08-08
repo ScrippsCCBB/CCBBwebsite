@@ -10,6 +10,11 @@ This nf-core pipeline does RNA sequencing analysis using STAR, Salmon with gene/
 
 Please follow the instructions below to use our analysis pipeline and run it on your RNASeq data:  
 
+### Prerequisites: 
+CCBB assumes that you have 
+* an account on Garibaldi,
+* set up [Workflow](http://opaat.scripps.edu/) on your computer
+
 ### Step1: 
 On Garibaldi, create a folder with your sample fastqs (e.g. 01sample_S1_R1_001.fastq.gz)
 - If you have lane-level fastqs for each sample, please concatenate them such that you have one fastq file per sample for single-end dataset and two fastqs per sample for paired-end dataset.
