@@ -11,7 +11,7 @@ title: ""
 Please follow the instructions and get access to our analysis pipelines:
 
 ###### Step1 
-[sign-up](https://www.jotform.com/form/250426140772148) for the pipelines you like to use (just once per pipeline).  
+[sign-up](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipeline_access/) for the pipelines you like to use (just once per pipeline).  
 Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
 ###### Step2 
