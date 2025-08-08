@@ -39,8 +39,8 @@ Reviewing our [authorship guidelines](../subpages/CCBB_guidelines.md) and giving
 “The authors acknowledge the bioinformatic support of the Center for Computational Biology and Bioinformatics (CCBB) at Scripps Research”.\
 <span style="color:red"> Co-authorship and acknowledgments demonstrate the utilization of our Bioinformatics Core services and is an indication of its value to your research. </span>
 
-###### FEEDBACK
-Please provide [feedback]([https://github.com/ScrippsCCBB/CCBBwebsite/blob/main/WorkFlow_User_Setup_Guide_May2025.pdf](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform?usp=sharing&ouid=108530166992368358579) at least once per pipeline you have used. We use your feedback to improve services and identify opportunities for enhanced support.
+###### Feedback
+Please provide [feedback](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform?usp=sharing&ouid=108530166992368358579) at least once per pipeline you have used. We use your feedback to improve services and identify opportunities for enhanced support.
 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared Linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research. CCBB reserves the right to continue/discontinue any of its pipelines on Garibaldi.
