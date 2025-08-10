@@ -15,7 +15,7 @@ Please follow the instructions and get access to our analysis pipelines:
 Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
 ###### Step2 
-As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC](mailto:hpc@scripps.edu) (if you do not have one already).
+To access our pipelines on Garibaldi, please get your account on Garibaldi by emailing [HPC](mailto:hpc@scripps.edu) (if you do not have one already).
 
 ###### Step3
 Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:\
