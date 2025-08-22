@@ -18,7 +18,7 @@ CCBB assumes that you have
 ### Step1: 
 On Garibaldi, create a folder with your sample fastqs 
 - Sample fastqs need to be gzipped with extension .fastq.gz
-- In the same folder, generate “samplesheet.csv” files based on the examples provided [here](). Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs)
+- In the same folder, generate “samplesheet.csv” files based on the examples provided [here](https://github.com/ScrippsCCBB/CCBBwebsite/blob/gh-pages/docs/assets/CCBB_Pipeline_examples/CCBB_SCRNASEQ_PIPELINE_example_input_files_EXAMPLE_for_samplesheet.csv). Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs)
 
 #### Sample Naming Conventions 
 Please follow the sample naming conventions listed to avoid errors. 
@@ -49,7 +49,7 @@ The workflow “CCBB_SCRNASeq_WF” is used to run the scRNASeq pipeline. This n
    * (c) type in the full path to where you want the results of the scRNASeq analysis to be generated on Garibaldi.
 
 #### IMPORTANT NOTE ON GENOMES:
-Currently the pipeline will work only for Human, Mouse.
+Currently the pipeline will work only for Human, Mouse. 
 If you have any other custom species please contact [CCBB](mailto:ccbb@scripps.edu)
 
 Follow the [details](https://nf-co.re/scrnaseq/4.0.0/docs/output/) to understand the pipeline outcome for your data.
