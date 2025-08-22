@@ -23,7 +23,7 @@ On Garibaldi, create a folder with your sample fastqs
 #### Sample Naming Conventions 
 Please follow the sample naming conventions listed to avoid errors. 
 The fastq name should be 
-<span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_<span style="color: green;">LaneNumber</span>_R1_001.fastq.gz and <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_<span style="color: green;">LaneNumber</span>_R2_001.fastq.gz. 
+<span style="color: red;">SampleName</span><span style="color: black;">_</span><span style="color: blue;">SampleNumber</span><span style="color: black;">_</span><span style="color: green;">LaneNumber</span>_R1_001.fastq.gz and <span style="color: red;">SampleName</span><span style="color: black;">_</span><span style="color: blue;">SampleNumber</span><span style="color: black;">_</span><span style="color: green;">LaneNumber</span>_R2_001.fastq.gz. 
 
 Examples - sample1_S1_L001_R1_001.fastq.gz and sample1_S1_L001_R2_001.fastq.gz, sample2_S2_L001_R1_001.fastq.gz and sample2_S2_L001_R2_001.fastq.gz 
 
