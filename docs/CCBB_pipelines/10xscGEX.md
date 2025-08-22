@@ -2,28 +2,28 @@
 layout: single
 classes: wide
 permalink: /pages/CCBB_pipelines/10xscGEX/
-title: "10x single cell gene expression"
-
+title: ""
 ---
-# CCBB Pipelines on Garibaldi - 10x single cell gene expression
-This nf-core pipeline does RNA sequencing analysis using cellranger count and empty droplet removal using cellbender
+# <span style="color:maroon"> 10x scRNASeq </span>
+This nf-core pipeline does RNA sequencing analysis using cellranger count. 
+
 Please follow the instructions below to get access to our analysis pipeline and run it on your scRNAseq data:
 
-Step1: Fill out the form “CCBB Pipelines on Garibaldi: request access Form” available at  CCBB website.
+### Prerequisites: 
+CCBB assumes that you have 
+* Signed up to request access to the pipeline. If not, please sign up using this [form](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipeline_access/)
+* an account on Garibaldi,
+* set up [Workflow](http://opaat.scripps.edu/) on your computer. If this is not setup, please follow the [instructions](https://github.com/ScrippsCCBB/CCBBwebsite/blob/main/WorkFlow_User_Setup_Guide_May2025.pdf) to set it up.
 
-Step2: As you will access our pipelines on Garibaldi, please get your account on Garibaldi by emailing hpc@scripps.edu (if you do not have one already).
+### Step1: 
+On Garibaldi, create a folder with your sample fastqs 
+- Sample fastqs need to be gzipped with extension .fastq.gz
+- In the same folder, generate “samplesheet.csv” files based on the examples provided [here](). Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs)
 
-Step3: Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:
-Allow us to contact the technical support staff to help you with Workflow set up on your computer. 
-
-Step4: On Garibaldi
-	Create a folder with your sample fastqs 
-Sample fastqs need to be gzipped with extension .fastq.gz
-In the same folder, generate “samplesheet.csv” files based on the examples provided here . Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs)
-
-Sample Naming Conventions
-Please follow the sample naming conventions listed to avoid errors.
-The fastq name should be SampleName_SampleNumber_LaneNumber_R1_001.fastq.gz and SampleName_SampleNumber_LaneNumber_R2_001.fastq.gz
+#### Sample Naming Conventions 
+Please follow the sample naming conventions listed to avoid errors. 
+The fastq name should be 
+<span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_<span style="color: green;">LaneNumber</span>_R1_001.fastq.gz and <span style="color: red;">SampleName</span>_<span style="color: blue;">SampleNumber</span>_<span style="color: green;">LaneNumber</span>_R2_001.fastq.gz
 Examples - sample1_S1_L001_R1_001.fastq.gz and sample1_S1_L001_R2_001.fastq.gz, sample2_S2_L001_R1_001.fastq.gz and sample2_S2_L001_R2_001.fastq.gz
 SampleName should be a single word and unique for each sample with no special characters (space, #, _ etc.)
 SampleNumber should be “S” followed by a number - unique for each sample with no special characters (space, #, _ etc.)
