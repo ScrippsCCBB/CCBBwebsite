@@ -64,6 +64,9 @@ After the successful completion of the scRNASeq pipeline, please remove the “w
 * Contact [CCBB](mailto:ccbb@scripps.edu) for any questions regarding the pipeline, results of analysis, further assistance with downstream analysis (like pathway analysis, custom differential expression analysis, specific plots for publication etc.) and your feedback on our pipeline !
 * Please take a few minutes to give us your [feedback](https://docs.google.com/forms/d/e/1FAIpQLSflup1jVY7lMb2CUaldWRHJQdGCBwwplTgEE3bZ5ktuq2IoqA/viewform)
 
+#### NOTE: 
+* The job completion time depends on various factors such as number of samples, depth of sequencing etc.
+* The job runs on a node on garibaldi. Depending on the cluster capacity, there may be a wait time to obtain the node. 
 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research.\
