@@ -50,7 +50,7 @@ The workflow “CCBB_SCRNASeq_WF” is used to run the scRNASeq pipeline. This n
    * (c) type in the full path to where you want the results of the scRNASeq analysis to be generated on Garibaldi.
 
 #### IMPORTANT NOTE ON GENOMES:
-Currently the pipeline will work only for Human, Mouse. 
+Currently the pipeline will work only for Human, Mouse.\
 If you have any other custom species please contact [CCBB](mailto:ccbb@scripps.edu)
 
 Follow the [details](https://nf-co.re/scrnaseq/4.0.0/docs/output/) to understand the pipeline outcome for your data.
