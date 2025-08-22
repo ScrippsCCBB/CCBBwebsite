@@ -18,7 +18,8 @@ CCBB assumes that you have
 ### Step1: 
 On Garibaldi, create a folder with your sample fastqs 
 - Sample fastqs need to be gzipped with extension .fastq.gz
-- In the same folder, generate “samplesheet.csv” files based on the examples provided [here](https://github.com/ScrippsCCBB/CCBBwebsite/blob/gh-pages/docs/assets/CCBB_Pipeline_examples/CCBB_SCRNASEQ_PIPELINE_example_input_files_EXAMPLE_for_samplesheet.csv). Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs)
+- In the same folder, generate “samplesheet.csv” files based on the examples provided [here](https://github.com/ScrippsCCBB/CCBBwebsite/blob/gh-pages/docs/assets/CCBB_Pipeline_examples/CCBB_SCRNASEQ_PIPELINE_example_input_files_EXAMPLE_for_samplesheet.csv).
+- Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs)
 
 #### Sample Naming Conventions 
 Please follow the sample naming conventions listed to avoid errors. 
