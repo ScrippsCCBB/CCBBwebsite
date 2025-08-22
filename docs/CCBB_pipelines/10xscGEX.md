@@ -27,8 +27,8 @@ The fastq name should be
 
 Examples - sample1_S1_L001_R1_001.fastq.gz and sample1_S1_L001_R2_001.fastq.gz, sample2_S2_L001_R1_001.fastq.gz and sample2_S2_L001_R2_001.fastq.gz 
 
-- SampleName should be a single word and unique for each sample with no special characters (space, #, _ etc.)
-- SampleNumber should be “S” followed by a number - unique for each sample with no special characters (space, #, _ etc.)
+- <span style="color: red;">SampleName </span> should be a single word and unique for each sample with no special characters (space, #, _ etc.)
+- <span style="color: blue;">SampleNumber </span> should be “S” followed by a number - unique for each sample with no special characters (space, #, _ etc.)
 - If the samples are sequenced across multiple lanes, make sure to provide the same SampleName 
 	
 ### Step2: 
