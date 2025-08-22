@@ -11,7 +11,7 @@ title: ""
 Please follow the instructions and get access to our analysis pipelines:
 
 ###### Step1 
-[sign-up](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipeline_access/) for the pipelines you like to use (just once per pipeline).  
+[Sign-up](https://scrippsccbb.github.io/CCBBwebsite/pages/CCBB_pipeline_access/) for the pipelines you like to use (just once per pipeline).  
 Email [CCBB](mailto:ccbb@scripps.edu) to find out if you have signed up already!
 
 ###### Step2 
@@ -20,6 +20,7 @@ To access our pipelines on Garibaldi, please get your account on Garibaldi by em
 ###### Step3
 Setting up Workflow, an interface to access CCBB pipelines on Garibaldi:\
 Please follow the [instructions](https://github.com/ScrippsCCBB/CCBBwebsite/blob/main/WorkFlow_User_Setup_Guide_May2025.pdf) to setup workflow on your computer.\
+In case of any questions in setting up workflow please reach out to the [workflow support team](workflow-support@scripps.edu) \
 Please note that workflow needs to be set-up only once.
 
 #### CCBB Pipelines on Garibaldi 
