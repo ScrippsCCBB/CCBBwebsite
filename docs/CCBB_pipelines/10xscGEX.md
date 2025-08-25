@@ -37,6 +37,7 @@ Now you are ready to run the CCBB scRNASeq analysis!
 
 Follow the instructions below to begin:
 Open [Workflow](http://opaat.scripps.edu/workflow-project) on your browser 
+(Refer to the image at the end of this document for details) 
 
 * Click on “Experiments”
 * To select a workflow click on “My WorkFlows” (on the top right corner), then click on “New Experiment”
@@ -66,7 +67,9 @@ After the successful completion of the scRNASeq pipeline, please remove the “w
 
 #### NOTE: 
 * The job completion time depends on various factors such as number of samples, depth of sequencing etc.
-* The job runs on a node on garibaldi. Depending on the cluster capacity, there may be a wait time to obtain the node. 
+* The job runs on a node on garibaldi. Depending on the cluster capacity, there may be a wait time to obtain the node.
+
+![CCBB SCRNASEQ PIPELINE WF](../assets/images/CCBB_SCRNASEQ_PIPELINE_WF.png)
 
 ### <span style="color:maroon"> DISCLAIMER </span>
 CCBB is providing pipelines on Garibaldi, the institute’s shared linux cluster, on “as is” and “as available” terms, solely for the benefit of the scientific community at Scripps Research.\
