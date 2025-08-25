@@ -27,7 +27,8 @@ Files “salmon.merged.gene_counts_length_scaled.tsv” and “salmon.merged.gen
 * In the same folder, generate [“samplesheet_de.csv”](https://github.com/ScrippsCCBB/CCBBwebsite/blob/gh-pages/docs/assets/CCBB_Pipeline_examples/CCBB_DIFFERENTIAL_ABUNDANCE_PIPELINE_example_input_files_EXAMPLE_for_samplesheet_de.csv) and [“contrasts.csv”](https://github.com/ScrippsCCBB/CCBBwebsite/blob/gh-pages/docs/assets/CCBB_Pipeline_examples/CCBB_DIFFERENTIAL_ABUNDANCE_PIPELINE_example_input_files_EXAMPLE_for_contrasts.csv) files based on the examples provided.\
 Edit them to reflect your sample name, /full-path-to-bulk-RNAseq-folder-on-Garibaldi data files (fastqs), group to which the sample belongs (a single word that describes the group), replicate number of the sample (1, 2, 3 …)
 
-The RNA-seq and differentialabundance workflows expect the following folder/file structure:
+The RNA-seq and differentialabundance workflows expect the following folder/file structure: 
+
 ![CCBB_DIFFERENTIAL_ABUNDANCE_PIPELINE_FOLDER_STRUCTURE](../assets/images/CCBB_DIFFERENTIAL_ABUNDANCE_PIPELINE_FOLDER_STRUCTURE_WF.png)
 
 ### Step2: 
