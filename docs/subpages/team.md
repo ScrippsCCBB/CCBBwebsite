@@ -9,7 +9,7 @@ We as a team bring in over 20 years of bioinformatic experience in the area of N
 
 | Name                 | Position                |
 |----------------------|-------------------------|
-| Padma Natarajan      | Scientific Director     |
-| Aishwarya Sundaresan | Bioinformatics Analyst III |
+| JC Ducom             | HPC Manager             |
+| Aishwarya Sundaresan | HPC Engineer            |
 
-**Contact Center for Computational Biology and Bioinformatics Core at [ccbb.at.scripps.edu](ccbb.at.scripps.edu)**
+**Contact Center for Computational Biology and Bioinformatics Core at [asundaresan.at.scripps.edu](asundaresan.at.scripps.edu)**
